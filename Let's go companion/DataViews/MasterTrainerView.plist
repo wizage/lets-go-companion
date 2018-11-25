@@ -1,0 +1,933 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   MasterTrainerView.plist
+   Let's go companion
+
+   Created by Sam Patzer on 11/24/18.
+   Copyright (c) 2018 wizage. All rights reserved.
+-->
+<plist version="1.0">
+   <array>
+      <dict>
+         <key>Pokemon</key>
+         <string>Bulbasaur Level 65</string>
+         <key>Location</key>
+         <string>Route 4</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Ivysaur Level 70</string>
+         <key>Location</key>
+         <string>Route 14</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Venusaur Level 75</string>
+         <key>Location</key>
+         <string>Route 23</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Charmander Level 65</string>
+         <key>Location</key>
+         <string>Celadon City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Charmeleon Level 70</string>
+         <key>Location</key>
+         <string>Route 10</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Charizard Level 75</string>
+         <key>Location</key>
+         <string>Route 23</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Squirtle Level 65</string>
+         <key>Location</key>
+         <string>Route 12</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Wartortle Level 70</string>
+         <key>Location</key>
+         <string>Route 20</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Blastoise Level 7</string>
+         <key>Location</key>
+         <string>Route 20</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Caterpie Level 65</string>
+         <key>Location</key>
+         <string>Route 18</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Metapod Level 7</string>
+         <key>Location</key>
+         <string>Route 11</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Butterfree Level 7</string>
+         <key>Location</key>
+         <string>Route 2</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Weedle Level 65</string>
+         <key>Location</key>
+         <string>Viridian Forest</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Kakuna Level 70</string>
+         <key>Location</key>
+         <string>Route 13</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Beedrill Level 75</string>
+         <key>Location</key>
+         <string>Route 8</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Pidgey Level 65</string>
+         <key>Location</key>
+         <string>Route 2</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Pidgeotto Level 70</string>
+         <key>Location</key>
+         <string>Route 16</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Pidgeot Level 75</string>
+         <key>Location</key>
+         <string>Route 12</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Rattata Level 65</string>
+         <key>Location</key>
+         <string>Route 10</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Raticate Level 75</string>
+         <key>Location</key>
+         <string>Cerulean City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Spearow Level 7</string>
+         <key>Location</key>
+         <string>Pewter City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Fearow Level 80</string>
+         <key>Location</key>
+         <string>Route 18</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Ekans Level 70</string>
+         <key>Location</key>
+         <string>Route 4</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Arbok Level 75</string>
+         <key>Location</key>
+         <string>Rocket Hideout</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Pikachu Level 7</string>
+         <key>Location</key>
+         <string>Viridian Forest</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Raichu Level 75</string>
+         <key>Location</key>
+         <string>Pokémon Tower</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Sandshrew Level 7</string>
+         <key>Location</key>
+         <string>Route 11</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Sandslash Level 7</string>
+         <key>Location</key>
+         <string>Route 7</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Nidoran (Female) Level 6</string>
+         <key>Location</key>
+         <string>Route 3</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Nidorina Level 7</string>
+         <key>Location</key>
+         <string>Underground Path 7-8</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Nidoqueen Level 75</string>
+         <key>Location</key>
+         <string>Route 23</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Nidoran (Male) Level 7</string>
+         <key>Location</key>
+         <string>Route 4</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Nidorino Level 75</string>
+         <key>Location</key>
+         <string>Underground Path 7- 8</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Nidoking Level 80</string>
+         <key>Location</key>
+         <string>Route 23</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Clefairy Level 70</string>
+         <key>Location</key>
+         <string>Saffron City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Clefable Level 80</string>
+         <key>Location</key>
+         <string>Mt. Moon</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Vulpix Level 70</string>
+         <key>Location</key>
+         <string>Route 6</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Ninetales Level 75</string>
+         <key>Location</key>
+         <string>Route 9</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Jigglypuff Level 70</string>
+         <key>Location</key>
+         <string>Pewter City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Wigglytuff Level 75</string>
+         <key>Location</key>
+         <string>Silph Co.</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Zubat Level 70</string>
+         <key>Location</key>
+         <string>Rock Tunnel</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Golbat Level 7</string>
+         <key>Location</key>
+         <string>Victory Road</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Oddish Level 65</string>
+         <key>Location</key>
+         <string>Viridian City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Gloom Level 70</string>
+         <key>Location</key>
+         <string>Pewter City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Vileplume Level 75</string>
+         <key>Location</key>
+         <string>Route 14</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Paras Level 70</string>
+         <key>Location</key>
+         <string>Mt. Moon</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Parasect Level 7</string>
+         <key>Location</key>
+         <string>Route 2</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Venonat Level 70</string>
+         <key>Location</key>
+         <string>Route 24</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Venomoth Level 75</string>
+         <key>Location</key>
+         <string>Route 15</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Diglett Level 70</string>
+         <key>Location</key>
+         <string>Diglett’s Cave</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Dugtrio Level 7</string>
+         <key>Location</key>
+         <string>Diglett’s Cave</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Meowth Level 70</string>
+         <key>Location</key>
+         <string>Viridian City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Persian Level 75</string>
+         <key>Location</key>
+         <string>Rocket Hideout</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Psyduck Level 70</string>
+         <key>Location</key>
+         <string>Route 21</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Golduck Level 75</string>
+         <key>Location</key>
+         <string>Route 4</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Mankey Level 70</string>
+         <key>Location</key>
+         <string>Route 5</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Primeape Level 75</string>
+         <key>Location</key>
+         <string>Route 11</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Growlithe Level 70</string>
+         <key>Location</key>
+         <string>Route 7</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Arcanine Level 75</string>
+         <key>Location</key>
+         <string>Celadon City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Poliwag Level 65</string>
+         <key>Location</key>
+         <string>Route 12</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Poliwhirl Level 70</string>
+         <key>Location</key>
+         <string>Cerulean City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Poliwrath Level 75</string>
+         <key>Location</key>
+         <string>Cerulean City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Abra Level 70</string>
+         <key>Location</key>
+         <string>Viridian City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Kadabra Level 75</string>
+         <key>Location</key>
+         <string>Saffron City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Alakazam Level 80</string>
+         <key>Location</key>
+         <string>Route 10</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Machop Level 65</string>
+         <key>Location</key>
+         <string>Silph Co.</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Machoke Level 70</string>
+         <key>Location</key>
+         <string>Fuchsia City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Machamp Level 75</string>
+         <key>Location</key>
+         <string>Vermilion City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Bellsprout Level 65</string>
+         <key>Location</key>
+         <string>Viridian City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Weepinbell Level 70</string>
+         <key>Location</key>
+         <string>Pokémon Tower</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Victreebell Level 75</string>
+         <key>Location</key>
+         <string>Celadon City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Tentacool Level 75</string>
+         <key>Location</key>
+         <string>Route 20</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Tentacruel Level 80</string>
+         <key>Location</key>
+         <string>Route 20</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Geodude Level 65</string>
+         <key>Location</key>
+         <string>Rock Tunnel</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Graveler Level 70</string>
+         <key>Location</key>
+         <string>Victory Road</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Golem Level 75</string>
+         <key>Location</key>
+         <string>Pewter City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Ponyta Level 7</string>
+         <key>Location</key>
+         <string>Saffron City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Rapidash Level 75</string>
+         <key>Location</key>
+         <string>Saffron City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Slowpoke Level 70</string>
+         <key>Location</key>
+         <string>Route 21</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Slowbro Level 7</string>
+         <key>Location</key>
+         <string>Route 21</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Magnemite Level 7</string>
+         <key>Location</key>
+         <string>Underground Path 5-6</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Magneton Level 75</string>
+         <key>Location</key>
+         <string>Underground Path 5-6</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Farfetch’d Level 70</string>
+         <key>Location</key>
+         <string>Vermilion City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Doduo Level 70</string>
+         <key>Location</key>
+         <string>Cerulean City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Dodrio Level 75</string>
+         <key>Location</key>
+         <string>Route 15</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Seel Level 70</string>
+         <key>Location</key>
+         <string>Seafoam Island</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Dewgong Level 7</string>
+         <key>Location</key>
+         <string>Seafoam Island</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Grimer Level 7</string>
+         <key>Location</key>
+         <string>Celadon City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Muk Level 75</string>
+         <key>Location</key>
+         <string>Pokemon Mansion</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Shellder Level 70</string>
+         <key>Location</key>
+         <string>Route 19</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Cloyster Level 75</string>
+         <key>Location</key>
+         <string>Route 20</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Gastly Level 70</string>
+         <key>Location</key>
+         <string>Lavender Town</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Haunter Level 75</string>
+         <key>Location</key>
+         <string>Lavender Town</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Gengar Level 80</string>
+         <key>Location</key>
+         <string>Lavender Town</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Onix Level 70</string>
+         <key>Location</key>
+         <string>Underground Path 7-8</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Drowzee Level 70</string>
+         <key>Location</key>
+         <string>Viridian City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Hypno Level 75</string>
+         <key>Location</key>
+         <string>Pokémon Tower</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Krabby Level 70</string>
+         <key>Location</key>
+         <string>Vermilion City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Kingler Level 75</string>
+         <key>Location</key>
+         <string>Silph Co.</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Voltorb Level 70</string>
+         <key>Location</key>
+         <string>Power Plant</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Electrode Level 75</string>
+         <key>Location</key>
+         <string>Route 16</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Exeggcute Level 70</string>
+         <key>Location</key>
+         <string>Route 24</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Exeggutor Level 75</string>
+         <key>Location</key>
+         <string>Cinnabar Island</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Cubone Level 70</string>
+         <key>Location</key>
+         <string>Route 8</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Marowak Level 75</string>
+         <key>Location</key>
+         <string>Lavender Town</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Hitmonlee Level 75</string>
+         <key>Location</key>
+         <string>Saffron City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Hitmonchan Level 75</string>
+         <key>Location</key>
+         <string>Saffron City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Lickitung Level 70</string>
+         <key>Location</key>
+         <string>Route 16</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Koffing Level 70</string>
+         <key>Location</key>
+         <string>Route 17</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Weezing Level 75</string>
+         <key>Location</key>
+         <string>Rocket Hideout</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Rhyhorn Level 70</string>
+         <key>Location</key>
+         <string>Route 17</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Rhydon Level 75</string>
+         <key>Location</key>
+         <string>Rocket Hideout</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Chansey Level 75</string>
+         <key>Location</key>
+         <string>Fuchsia City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Tangela Level 75</string>
+         <key>Location</key>
+         <string>Route 15</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Kangaskhan Level 75</string>
+         <key>Location</key>
+         <string>Fuchsia City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Horsea Level 70</string>
+         <key>Location</key>
+         <string>Route 19</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Seadra Level 75</string>
+         <key>Location</key>
+         <string>Route 12</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Goldeen Level 70</string>
+         <key>Location</key>
+         <string>Route 12</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Seaking Level 75</string>
+         <key>Location</key>
+         <string>Route 13</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Staryu Level 7</string>
+         <key>Location</key>
+         <string>Route 19</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Starmie Level 7</string>
+         <key>Location</key>
+         <string>Route 25</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Mr. Mime Level 70</string>
+         <key>Location</key>
+         <string>Celadon City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Scyther Level 75</string>
+         <key>Location</key>
+         <string>Route 15</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Jynx Level 75</string>
+         <key>Location</key>
+         <string>Cerulean City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Electabuzz Level 75</string>
+         <key>Location</key>
+         <string>Route 10</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Magmar Level 75</string>
+         <key>Location</key>
+         <string>Pokemon Mansion</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Pinsir Level 75</string>
+         <key>Location</key>
+         <string>Route 18</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Tauros Level 75</string>
+         <key>Location</key>
+         <string>Fuchsia City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Magikarp Level 65</string>
+         <key>Location</key>
+         <string>Route 4</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Gyarados Level 70</string>
+         <key>Location</key>
+         <string>Celadon City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Lapras Level 7</string>
+         <key>Location</key>
+         <string>Pokémon Tower</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Ditto 4000 CP</string>
+         <key>Location</key>
+         <string>Pokemon Mansion</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Eevee Level 75</string>
+         <key>Location</key>
+         <string>Route 17</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Vaporeon Level 75</string>
+         <key>Location</key>
+         <string>Celadon City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Jolteon Level 75</string>
+         <key>Location</key>
+         <string>Celadon City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Flareon Level 75</string>
+         <key>Location</key>
+         <string>Celadon City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Porygon Level 75</string>
+         <key>Location</key>
+         <string>Celadon City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Omanyte Level 70</string>
+         <key>Location</key>
+         <string>Mt. Moon</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Omastar Level 75</string>
+         <key>Location</key>
+         <string>Cinnabar Island</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Kabuto Level 70</string>
+         <key>Location</key>
+         <string>Mt. Moon</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Kabutops Level 75</string>
+         <key>Location</key>
+         <string>Pewter City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Aerodactyl Level 75</string>
+         <key>Location</key>
+         <string>Pewter City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Snorlax Level 7</string>
+         <key>Location</key>
+         <string>Route 16</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Articuno 7500 CP</string>
+         <key>Location</key>
+         <string>Seafoam Island</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Zapdos 7500 CP</string>
+         <key>Location</key>
+         <string>Power Plant</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Moltres 7500 CP</string>
+         <key>Location</key>
+         <string>Victory Road</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Dratini Level 65</string>
+         <key>Location</key>
+         <string>Route 23</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Dragonair Level 70</string>
+         <key>Location</key>
+         <string>Seafoam Island</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Dragonite Level 75</string>
+         <key>Location</key>
+         <string>Cerulean City</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Mewtwo 9000 CP</string>
+         <key>Location</key>
+         <string>Pokemon Mansion</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Mew 8000 CP</string>
+         <key>Location</key>
+         <string>Pokemon Mansion</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Meltan 4000 C</string>
+         <key>Location</key>
+         <string>Pokemon Mansion</string>
+      </dict>
+      <dict>
+         <key>Pokemon</key>
+         <string>Melmetal 8000 CP</string>
+         <key>Location</key>
+         <string>Pokemon Mansion</string>
+      </dict>
+   </array>
+</plist>

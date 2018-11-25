@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   TradingView.plist
+   Let's go companion
+
+   Created by Sam Patzer on 11/24/18.
+   Copyright (c) 2018 wizage. All rights reserved.
+-->
+<plist version="1.0">
+<array>
+	<dict>
+		<key>PokemonName</key>
+		<string>Rattata (Alola)</string>
+		<key>Requirement</key>
+		<string>Rattata</string>
+		<key>Location</key>
+		<string>Cerulean Pokemon Center</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Geodude (Alola)</string>
+		<key>Requirement</key>
+		<string>Geodude</string>
+		<key>Location</key>
+		<string>Vermiion Pokemon Center</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Diglett (Alola)</string>
+		<key>Requirement</key>
+		<string>Diglett</string>
+		<key>Location</key>
+		<string>Lavender Pokemon Center</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Sandshrew/Vulpix (Alola)</string>
+		<key>Requirement</key>
+		<string>Sandshrew/Vulpix</string>
+		<key>Location</key>
+		<string>Celadon Pokemon Center</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Exeggutor (Alola)</string>
+		<key>Requirement</key>
+		<string>Exeggutor</string>
+		<key>Location</key>
+		<string>Indigo Plateau Pokemon Center</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Marowak (Alola)</string>
+		<key>Requirement</key>
+		<string>Marowak</string>
+		<key>Location</key>
+		<string>Fushia Pokemon Center</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Grimer/Meowth (Alola)</string>
+		<key>Requirement</key>
+		<string>Grimer/Meowth</string>
+		<key>Location</key>
+		<string>Cinnabar Pokemon Center</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Raichu (Alola)</string>
+		<key>Requirement</key>
+		<string>Raichu</string>
+		<key>Location</key>
+		<string>Saffron Pokemon Center</string>
+	</dict>
+</array>
+</plist>

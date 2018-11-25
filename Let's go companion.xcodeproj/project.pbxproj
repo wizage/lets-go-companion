@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		1B85526A21A9B2B700CF34F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85526921A9B2B700CF34F0 /* AppDelegate.swift */; };
-		1B85526C21A9B2B700CF34F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85526B21A9B2B700CF34F0 /* ViewController.swift */; };
 		1B85526F21A9B2B700CF34F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B85526D21A9B2B700CF34F0 /* Main.storyboard */; };
 		1B85527221A9B2B700CF34F0 /* Let_s_go_companion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B85527021A9B2B700CF34F0 /* Let_s_go_companion.xcdatamodeld */; };
 		1B85527421A9B2B800CF34F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B85527321A9B2B800CF34F0 /* Assets.xcassets */; };
 		1B85527721A9B2B800CF34F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B85527521A9B2B800CF34F0 /* LaunchScreen.storyboard */; };
+		1B85527F21A9B52600CF34F0 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85527E21A9B52600CF34F0 /* EventsTableViewController.swift */; };
+		1B85528121A9B5D300CF34F0 /* events.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B85528021A9B5D300CF34F0 /* events.plist */; };
+		1B85528521A9BEE200CF34F0 /* DailyView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B85528421A9BEE200CF34F0 /* DailyView.plist */; };
+		1B85528721A9BF1200CF34F0 /* MasterTrainerView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B85528621A9BF1200CF34F0 /* MasterTrainerView.plist */; };
+		1B85528921A9BF2200CF34F0 /* OutfitView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B85528821A9BF2200CF34F0 /* OutfitView.plist */; };
+		1B85528B21A9BF2F00CF34F0 /* TMCollectionView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B85528A21A9BF2F00CF34F0 /* TMCollectionView.plist */; };
+		1B85528D21A9BF3B00CF34F0 /* GiftView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B85528C21A9BF3B00CF34F0 /* GiftView.plist */; };
+		1B85528F21A9BF4700CF34F0 /* TradingView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B85528E21A9BF4700CF34F0 /* TradingView.plist */; };
+		1B85529221A9D4C200CF34F0 /* SingleEventCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85529121A9D4C200CF34F0 /* SingleEventCollectionViewController.swift */; };
+		1B85529421A9D97C00CF34F0 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85529321A9D97C00CF34F0 /* EventCollectionViewCell.swift */; };
+		1B85529621AA3C4B00CF34F0 /* CheckButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85529521AA3C4B00CF34F0 /* CheckButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B85526621A9B2B700CF34F0 /* Let's go companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Let's go companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B85526921A9B2B700CF34F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B85526B21A9B2B700CF34F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B85526E21A9B2B700CF34F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B85527121A9B2B700CF34F0 /* Let_s_go_companion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Let_s_go_companion.xcdatamodel; sourceTree = "<group>"; };
 		1B85527321A9B2B800CF34F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B85527621A9B2B800CF34F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B85527821A9B2B800CF34F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B85527E21A9B52600CF34F0 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		1B85528021A9B5D300CF34F0 /* events.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = events.plist; sourceTree = "<group>"; };
+		1B85528421A9BEE200CF34F0 /* DailyView.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DailyView.plist; sourceTree = "<group>"; };
+		1B85528621A9BF1200CF34F0 /* MasterTrainerView.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MasterTrainerView.plist; sourceTree = "<group>"; };
+		1B85528821A9BF2200CF34F0 /* OutfitView.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OutfitView.plist; sourceTree = "<group>"; };
+		1B85528A21A9BF2F00CF34F0 /* TMCollectionView.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TMCollectionView.plist; sourceTree = "<group>"; };
+		1B85528C21A9BF3B00CF34F0 /* GiftView.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GiftView.plist; sourceTree = "<group>"; };
+		1B85528E21A9BF4700CF34F0 /* TradingView.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TradingView.plist; sourceTree = "<group>"; };
+		1B85529121A9D4C200CF34F0 /* SingleEventCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleEventCollectionViewController.swift; sourceTree = "<group>"; };
+		1B85529321A9D97C00CF34F0 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		1B85529521AA3C4B00CF34F0 /* CheckButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,57 @@
 		1B85526821A9B2B700CF34F0 /* Let's go companion */ = {
 			isa = PBXGroup;
 			children = (
-				1B85526921A9B2B700CF34F0 /* AppDelegate.swift */,
-				1B85526B21A9B2B700CF34F0 /* ViewController.swift */,
-				1B85526D21A9B2B700CF34F0 /* Main.storyboard */,
-				1B85527321A9B2B800CF34F0 /* Assets.xcassets */,
-				1B85527521A9B2B800CF34F0 /* LaunchScreen.storyboard */,
-				1B85527821A9B2B800CF34F0 /* Info.plist */,
-				1B85527021A9B2B700CF34F0 /* Let_s_go_companion.xcdatamodeld */,
+				1B85529921AA508300CF34F0 /* StoryBoards */,
+				1B85529821AA506700CF34F0 /* Defaults */,
+				1B85529721AA504A00CF34F0 /* Events */,
+				1B85529021A9BF4C00CF34F0 /* DataViews */,
 			);
 			path = "Let's go companion";
+			sourceTree = "<group>";
+		};
+		1B85529021A9BF4C00CF34F0 /* DataViews */ = {
+			isa = PBXGroup;
+			children = (
+				1B85528021A9B5D300CF34F0 /* events.plist */,
+				1B85528A21A9BF2F00CF34F0 /* TMCollectionView.plist */,
+				1B85528C21A9BF3B00CF34F0 /* GiftView.plist */,
+				1B85528E21A9BF4700CF34F0 /* TradingView.plist */,
+				1B85528421A9BEE200CF34F0 /* DailyView.plist */,
+				1B85528621A9BF1200CF34F0 /* MasterTrainerView.plist */,
+				1B85528821A9BF2200CF34F0 /* OutfitView.plist */,
+			);
+			path = DataViews;
+			sourceTree = "<group>";
+		};
+		1B85529721AA504A00CF34F0 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				1B85527E21A9B52600CF34F0 /* EventsTableViewController.swift */,
+				1B85529321A9D97C00CF34F0 /* EventCollectionViewCell.swift */,
+				1B85529121A9D4C200CF34F0 /* SingleEventCollectionViewController.swift */,
+				1B85529521AA3C4B00CF34F0 /* CheckButton.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		1B85529821AA506700CF34F0 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				1B85527821A9B2B800CF34F0 /* Info.plist */,
+				1B85527321A9B2B800CF34F0 /* Assets.xcassets */,
+				1B85526921A9B2B700CF34F0 /* AppDelegate.swift */,
+				1B85527021A9B2B700CF34F0 /* Let_s_go_companion.xcdatamodeld */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		1B85529921AA508300CF34F0 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				1B85526D21A9B2B700CF34F0 /* Main.storyboard */,
+				1B85527521A9B2B800CF34F0 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +187,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B85528B21A9BF2F00CF34F0 /* TMCollectionView.plist in Resources */,
 				1B85527721A9B2B800CF34F0 /* LaunchScreen.storyboard in Resources */,
+				1B85528921A9BF2200CF34F0 /* OutfitView.plist in Resources */,
 				1B85527421A9B2B800CF34F0 /* Assets.xcassets in Resources */,
 				1B85526F21A9B2B700CF34F0 /* Main.storyboard in Resources */,
+				1B85528F21A9BF4700CF34F0 /* TradingView.plist in Resources */,
+				1B85528D21A9BF3B00CF34F0 /* GiftView.plist in Resources */,
+				1B85528721A9BF1200CF34F0 /* MasterTrainerView.plist in Resources */,
+				1B85528521A9BEE200CF34F0 /* DailyView.plist in Resources */,
+				1B85528121A9B5D300CF34F0 /* events.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B85526C21A9B2B700CF34F0 /* ViewController.swift in Sources */,
 				1B85527221A9B2B700CF34F0 /* Let_s_go_companion.xcdatamodeld in Sources */,
+				1B85529421A9D97C00CF34F0 /* EventCollectionViewCell.swift in Sources */,
 				1B85526A21A9B2B700CF34F0 /* AppDelegate.swift in Sources */,
+				1B85529221A9D4C200CF34F0 /* SingleEventCollectionViewController.swift in Sources */,
+				1B85529621AA3C4B00CF34F0 /* CheckButton.swift in Sources */,
+				1B85527F21A9B52600CF34F0 /* EventsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +365,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wizage.Let-s-go-companion";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizage.letsgocompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +383,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wizage.Let-s-go-companion";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizage.letsgocompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

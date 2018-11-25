@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   DailyView.plist
+   Let's go companion
+
+   Created by Sam Patzer on 11/24/18.
+   Copyright (c) 2018 wizage. All rights reserved.
+-->
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DailyEvent</key>
+		<string>Babysit a Slowpoke</string>
+		<key>Location</key>
+		<string>Pewter City</string>
+		<key>Reward</key>
+		<string>Big Pearl</string>
+	</dict>
+    <dict>
+		<key>DailyEvent</key>
+		<string>Buy Pewter Crunchies</string>
+		<key>Location</key>
+		<string>Pewter City Pokemon Center</string>
+		<key>Reward</key>
+		<string>Pewter Crunchies</string>
+	</dict>
+    <dict>
+		<key>DailyEvent</key>
+		<string>Battle Mina</string>
+		<key>Location</key>
+		<string>Vermilion Port</string>
+		<key>Reward</key>
+		<string>Bottle Cap</string>
+	</dict>
+    <dict>
+		<key>DailyEvent</key>
+		<string>Vist Diglett in the Warden's house</string>
+		<key>Location</key>
+		<string>Fushcia City</string>
+		<key>Reward</key>
+		<string>Nugget</string>
+	</dict>
+    <dict>
+		<key>DailyEvent</key>
+		<string>Revisit all the Gym Leaders</string>
+		<key>Location</key>
+		<string>Gyms</string>
+		<key>Reward</key>
+		<string>Money and Exp</string>
+	</dict>
+    <dict>
+		<key>DailyEvent</key>
+		<string>Revisit the Elite 4</string>
+		<key>Location</key>
+		<string>End of Victory Road</string>
+		<key>Reward</key>
+		<string>Money and Exp</string>
+	</dict>
+    <dict>
+		<key>DailyEvent</key>
+		<string>Pick up hidden items</string>
+		<key>Location</key>
+		<string>Rocket Game Corner</string>
+		<key>Reward</key>
+		<string>Misc items</string>
+	</dict>
+    <dict>
+		<key>DailyEvent</key>
+		<string>Find a fossil</string>
+		<key>Location</key>
+		<string>Cerulean Cave</string>
+		<key>Reward</key>
+		<string>Fossil</string>
+	</dict>
+    <dict>
+		<key>DailyEvent</key>
+		<string>Find Hidden Heart Scales</string>
+		<key>Location</key>
+		<string>Seafoam Islands</string>
+		<key>Reward</key>
+		<string>Heart Scales</string>
+	</dict>
+</array>
+</plist>

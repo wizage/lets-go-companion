@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   GiftView.plist
+   Let's go companion
+
+   Created by Sam Patzer on 11/24/18.
+   Copyright (c) 2018 wizage. All rights reserved.
+-->
+<plist version="1.0">
+<array>
+	<dict>
+		<key>PokemonName</key>
+		<string>Bulbasaur</string>
+		<key>Location</key>
+		<string>Cerulean City</string>
+		<key>Requirement</key>
+		<string>Have caught 30 pokemon</string>
+		<key>ID</key>
+		<string>001</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Charmander</string>
+		<key>Location</key>
+		<string>Route 24</string>
+		<key>Requirement</key>
+		<string>Have caught 50 pokemon</string>
+		<key>ID</key>
+		<string>004</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Squirtle</string>
+		<key>Location</key>
+		<string>Vermilion City</string>
+		<key>Requirement</key>
+		<string>Have caught 60 pokemon</string>
+		<key>ID</key>
+		<string>007</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Lapras</string>
+		<key>Location</key>
+		<string>Saffron City</string>
+		<key>Requirement</key>
+		<string>Visit Silph Company</string>
+		<key>ID</key>
+		<string>131</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Magikarp</string>
+		<key>Location</key>
+		<string>Route 4 Pokemon Center</string>
+		<key>Requirement</key>
+		<string>500 Poke Dollars</string>
+		<key>ID</key>
+		<string>129</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Arcanine/Persian</string>
+		<key>Location</key>
+		<string>Vermillon City</string>
+		<key>Requirement</key>
+		<string>Caught 5 Meowths or Growlithes</string>
+		<key>ID</key>
+		<string>059</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Hitmonlee/Hitmonchan</string>
+		<key>Location</key>
+		<string>Saffrom City</string>
+		<key>Requirement</key>
+		<string>Complete the Fighting Dojo</string>
+		<key>ID</key>
+		<string>107</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Porygon</string>
+		<key>Location</key>
+		<string>Saffron City</string>
+		<key>Requirement</key>
+		<string>Defeat Team Rocket in Saffron City</string>
+		<key>ID</key>
+		<string>137</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Kabuto/Omanyte</string>
+		<key>Location</key>
+		<string>Mt. Moon</string>
+		<key>Requirement</key>
+		<string>Revive in Cinnabar City</string>
+		<key>ID</key>
+		<string>138</string>
+	</dict>
+	<dict>
+		<key>PokemonName</key>
+		<string>Aerodactyl</string>
+		<key>Location</key>
+		<string>Pewter Museum (requires cut)</string>
+		<key>Requirement</key>
+		<string>Revive in Cinnabar City</string>
+		<key>ID</key>
+		<string>142</string>
+	</dict>
+</array>
+</plist>

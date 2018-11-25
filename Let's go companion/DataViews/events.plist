@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>event</key>
+		<string>Daily Events</string>
+		<key>eventView</key>
+		<string>Daily</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Master Trainer</string>
+		<key>eventView</key>
+		<string>MasterTrainer</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Outfits</string>
+		<key>eventView</key>
+		<string>Outfit</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>TM Collecting</string>
+		<key>eventView</key>
+		<string>TMCollection</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>Pokemon Gifts</string>
+		<key>eventView</key>
+		<string>Gift</string>
+	</dict>
+	<dict>
+		<key>event</key>
+		<string>In Game Trades</string>
+		<key>eventView</key>
+		<string>Trading</string>
+	</dict>
+</array>
+</plist>
