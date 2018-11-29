@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   events.plist
+   Let's go companion
+
+   Created by Sam Patzer on 11/24/18.
+   Copyright (c) 2018 wizage. All rights reserved.
+-->
 <plist version="1.0">
 <array>
 	<dict>
@@ -14,12 +21,14 @@
 		<key>eventView</key>
 		<string>MasterTrainer</string>
 	</dict>
+	<!-- 
 	<dict>
 		<key>event</key>
 		<string>Outfits</string>
 		<key>eventView</key>
 		<string>Outfit</string>
 	</dict>
+	-->
 	<dict>
 		<key>event</key>
 		<string>TM Collecting</string>

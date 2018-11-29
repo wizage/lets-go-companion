@@ -23,6 +23,10 @@
 		1B85529221A9D4C200CF34F0 /* SingleEventCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85529121A9D4C200CF34F0 /* SingleEventCollectionViewController.swift */; };
 		1B85529421A9D97C00CF34F0 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85529321A9D97C00CF34F0 /* EventCollectionViewCell.swift */; };
 		1B85529621AA3C4B00CF34F0 /* CheckButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85529521AA3C4B00CF34F0 /* CheckButton.swift */; };
+		1B85529C21AB4E5100CF34F0 /* PokedexCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85529B21AB4E5100CF34F0 /* PokedexCollectionViewController.swift */; };
+		1B85529E21AB4EDA00CF34F0 /* PokedexView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B85529D21AB4EDA00CF34F0 /* PokedexView.plist */; };
+		1B8552A021AB4FCE00CF34F0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85529F21AB4FCE00CF34F0 /* DetailsViewController.swift */; };
+		1B9137E021B08AB1002D2896 /* EventSectionHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9137DF21B08AB1002D2896 /* EventSectionHeaderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		1B85529121A9D4C200CF34F0 /* SingleEventCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleEventCollectionViewController.swift; sourceTree = "<group>"; };
 		1B85529321A9D97C00CF34F0 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
 		1B85529521AA3C4B00CF34F0 /* CheckButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButton.swift; sourceTree = "<group>"; };
+		1B85529B21AB4E5100CF34F0 /* PokedexCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexCollectionViewController.swift; sourceTree = "<group>"; };
+		1B85529D21AB4EDA00CF34F0 /* PokedexView.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PokedexView.plist; sourceTree = "<group>"; };
+		1B85529F21AB4FCE00CF34F0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1B9137DF21B08AB1002D2896 /* EventSectionHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSectionHeaderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,8 @@
 		1B85526821A9B2B700CF34F0 /* Let's go companion */ = {
 			isa = PBXGroup;
 			children = (
+				1B85529A21AB4E3100CF34F0 /* Pokedex */,
+				1B85527821A9B2B800CF34F0 /* Info.plist */,
 				1B85529921AA508300CF34F0 /* StoryBoards */,
 				1B85529821AA506700CF34F0 /* Defaults */,
 				1B85529721AA504A00CF34F0 /* Events */,
@@ -94,6 +104,7 @@
 				1B85528421A9BEE200CF34F0 /* DailyView.plist */,
 				1B85528621A9BF1200CF34F0 /* MasterTrainerView.plist */,
 				1B85528821A9BF2200CF34F0 /* OutfitView.plist */,
+				1B85529D21AB4EDA00CF34F0 /* PokedexView.plist */,
 			);
 			path = DataViews;
 			sourceTree = "<group>";
@@ -105,6 +116,8 @@
 				1B85529321A9D97C00CF34F0 /* EventCollectionViewCell.swift */,
 				1B85529121A9D4C200CF34F0 /* SingleEventCollectionViewController.swift */,
 				1B85529521AA3C4B00CF34F0 /* CheckButton.swift */,
+				1B85529F21AB4FCE00CF34F0 /* DetailsViewController.swift */,
+				1B9137DF21B08AB1002D2896 /* EventSectionHeaderViewController.swift */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -112,7 +125,6 @@
 		1B85529821AA506700CF34F0 /* Defaults */ = {
 			isa = PBXGroup;
 			children = (
-				1B85527821A9B2B800CF34F0 /* Info.plist */,
 				1B85527321A9B2B800CF34F0 /* Assets.xcassets */,
 				1B85526921A9B2B700CF34F0 /* AppDelegate.swift */,
 				1B85527021A9B2B700CF34F0 /* Let_s_go_companion.xcdatamodeld */,
@@ -127,6 +139,14 @@
 				1B85527521A9B2B800CF34F0 /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		1B85529A21AB4E3100CF34F0 /* Pokedex */ = {
+			isa = PBXGroup;
+			children = (
+				1B85529B21AB4E5100CF34F0 /* PokedexCollectionViewController.swift */,
+			);
+			path = Pokedex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +216,7 @@
 				1B85528D21A9BF3B00CF34F0 /* GiftView.plist in Resources */,
 				1B85528721A9BF1200CF34F0 /* MasterTrainerView.plist in Resources */,
 				1B85528521A9BEE200CF34F0 /* DailyView.plist in Resources */,
+				1B85529E21AB4EDA00CF34F0 /* PokedexView.plist in Resources */,
 				1B85528121A9B5D300CF34F0 /* events.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +231,10 @@
 				1B85527221A9B2B700CF34F0 /* Let_s_go_companion.xcdatamodeld in Sources */,
 				1B85529421A9D97C00CF34F0 /* EventCollectionViewCell.swift in Sources */,
 				1B85526A21A9B2B700CF34F0 /* AppDelegate.swift in Sources */,
+				1B9137E021B08AB1002D2896 /* EventSectionHeaderViewController.swift in Sources */,
+				1B8552A021AB4FCE00CF34F0 /* DetailsViewController.swift in Sources */,
 				1B85529221A9D4C200CF34F0 /* SingleEventCollectionViewController.swift in Sources */,
+				1B85529C21AB4E5100CF34F0 /* PokedexCollectionViewController.swift in Sources */,
 				1B85529621AA3C4B00CF34F0 /* CheckButton.swift in Sources */,
 				1B85527F21A9B52600CF34F0 /* EventsTableViewController.swift in Sources */,
 			);

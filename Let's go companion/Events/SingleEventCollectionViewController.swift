@@ -9,11 +9,15 @@
 import UIKit
 import CoreData
 
-class SingleEventCollectionViewController: UICollectionViewController {
+class SingleEventCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     var eventView : String!
     var appDelegate : AppDelegate!
     var data : Array<NSManagedObject>!
     var singleEventTableArray : Array<Dictionary<String, String>>!
+    var sorted = false
+    var completed : Array<NSManagedObject> = []
+    var notcompleted : Array<NSManagedObject> = []
+    var layout : UICollectionViewFlowLayout = UICollectionViewFlowLayout()
     override func viewDidLoad() {
         super.viewDidLoad()
         appDelegate = UIApplication.shared.delegate as? AppDelegate
@@ -21,6 +25,10 @@ class SingleEventCollectionViewController: UICollectionViewController {
             appDelegate.persistentContainer.viewContext
         let fetchRequest =
             NSFetchRequest<NSManagedObject>(entityName: eventView + "Object")
+        let sort = NSSortDescriptor(key: "index", ascending: true)
+        fetchRequest.sortDescriptors = [sort]
+        
+        
         
         do {
             data = try managedContext.fetch(fetchRequest)
@@ -55,8 +63,6 @@ class SingleEventCollectionViewController: UICollectionViewController {
         let screenHeight = screenSize.height
 
         
-        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-        
         if (screenWidth > screenHeight){
             layout.sectionInset = UIEdgeInsets(top: 10, left: (screenHeight - 300)/3, bottom: 10, right: (screenHeight - 300)/3)
         } else {
@@ -68,7 +74,8 @@ class SingleEventCollectionViewController: UICollectionViewController {
         layout.minimumLineSpacing = 15
         layout.itemSize = CGSize(width: 150, height: 150)
         collectionView!.collectionViewLayout = layout
-
+        
+        sortItems()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -76,6 +83,16 @@ class SingleEventCollectionViewController: UICollectionViewController {
         //self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
 
         // Do any additional setup after loading the view.
+    }
+    
+    func sortItems(){
+        for item in data {
+            if (item.value(forKeyPath: "completed") as! Bool){
+                completed.append(item)
+            } else {
+                notcompleted.append(item)
+            }
+        }
     }
 
     /*
@@ -92,74 +109,71 @@ class SingleEventCollectionViewController: UICollectionViewController {
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        if (sorted){
+            return 2
+        }
+        else {
+            return 1
+        }
     }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return singleEventTableArray.count
+        if (sorted && section == 0){
+            return notcompleted.count
+        } else if (sorted && section == 1) {
+            return completed.count
+        } else {
+            return singleEventTableArray.count
+        }
+        
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! EventCollectionViewCell
-        
+        var indexOfObject = indexPath.row
+        if (sorted && indexPath.section == 0){
+            indexOfObject = notcompleted[indexPath.row].value(forKeyPath: "index") as! Int
+        } else if (sorted && indexPath.section == 1){
+            indexOfObject = completed[indexPath.row].value(forKeyPath: "index") as! Int
+        }
         switch eventView {
         case "TMCollection":
-            let TMCombo = singleEventTableArray[indexPath.row]["TMName"]! + "\n" + singleEventTableArray[indexPath.row]["TMTitle"]!
+            let TMCombo = singleEventTableArray[indexOfObject]["TMName"]! + "\n" + singleEventTableArray[indexOfObject]["TMTitle"]!
             cell.titleLabel.text = TMCombo
-            let imageName = "Bag_TM_" + singleEventTableArray[indexPath.row]["TMType"]! + "_Sprite"
+            let imageName = "Bag_TM_" + singleEventTableArray[indexOfObject]["TMType"]! + "_Sprite"
             cell.imageView.image = UIImage(imageLiteralResourceName: imageName)
         case "Gift":
-            cell.titleLabel.text = singleEventTableArray[indexPath.row]["PokemonName"]
-            cell.imageView.image = UIImage(imageLiteralResourceName: singleEventTableArray[indexPath.row]["ID"]! + "MS")
+            cell.titleLabel.text = singleEventTableArray[indexOfObject]["PokemonName"]
+            cell.imageView.image = UIImage(imageLiteralResourceName: singleEventTableArray[indexOfObject]["ID"]! + "MS")
         case "Trading":
-            cell.titleLabel.text = singleEventTableArray[indexPath.row]["PokemonName"]
+            cell.titleLabel.text = singleEventTableArray[indexOfObject]["PokemonName"]
+            let imageName = singleEventTableArray[indexOfObject]["ID"]! + "AMS"
+            cell.imageView.image = UIImage(imageLiteralResourceName: imageName)
+            
         case "Daily":
-            cell.titleLabel.text = singleEventTableArray[indexPath.row]["DailyEvent"]
-            //Replace with an array lookup #duh
-            switch indexPath.row {
-            case 0:
-                cell.imageView.image = #imageLiteral(resourceName: "079MS")
-            case 1:
-                print("to do")
-            case 2:
-                print("to do")
-            case 3:
-                cell.imageView.image = #imageLiteral(resourceName: "050MS")
-            case 4:
-                print("to do")
-            case 5:
-                print("to do")
-            case 6:
-                print("to do")
-            case 7:
-                print("to do")
-            case 8:
-                print("to do")
-            default:
-                print("error")
-            }
+            cell.titleLabel.text = singleEventTableArray[indexOfObject]["DailyEvent"]
+            cell.imageView.image = UIImage(imageLiteralResourceName: singleEventTableArray[indexOfObject]["Image"]!)
         case "MasterTrainer":
-            var pokemonLeveler = singleEventTableArray[indexPath.row]["Pokemon"]
+            var pokemonLeveler = singleEventTableArray[indexOfObject]["Pokemon"]
             let indexOfSpace = pokemonLeveler?.firstIndex(of: " ")
             pokemonLeveler?.replaceSubrange(indexOfSpace!..<indexOfSpace!, with: "\n")
             cell.titleLabel.text = pokemonLeveler
-            if (indexPath.row == 151){
+            if (indexOfObject == 151){
                 cell.imageView.image = #imageLiteral(resourceName: "808MS")
-            } else if (indexPath.row == 152){
+            } else if (indexOfObject == 152){
                 cell.imageView.image = #imageLiteral(resourceName: "809MS")
             } else {
-                let imageName = String(format: "%03dMS", indexPath.row+1)
+                let imageName = String(format: "%03dMS", indexOfObject+1)
                 cell.imageView.image = UIImage(imageLiteralResourceName: imageName)
             }
         case "Outfit":
-            cell.titleLabel.text = singleEventTableArray[indexPath.row]["Outfit"]
+            cell.titleLabel.text = singleEventTableArray[indexOfObject]["Outfit"]
         default:
             cell.titleLabel.text = "Error"
         }
-        cell.selectedMark.tag = indexPath.row
-        if(data![indexPath.row].value(forKeyPath: "completed") as! Bool){
+        if(data![indexOfObject].value(forKeyPath: "completed") as! Bool){
             cell.selectedMark.setImage(#imageLiteral(resourceName: "greenCheck"), for: .normal)
             cell.selectedMark.checked = true
         } else {
@@ -178,13 +192,58 @@ class SingleEventCollectionViewController: UICollectionViewController {
     
     @objc func markComplete(_ sender:CheckButton){
         
-        let managedContext = appDelegate.persistentContainer.viewContext
+        guard let cell = sender.superview?.superview as? EventCollectionViewCell else {
+            return // or fatalError() or whatever
+        }
+        let location = collectionView.indexPath(for: cell)
         
-        data![sender.tag].setValue(!sender.checked, forKey: "completed")
+        let managedContext = appDelegate.persistentContainer.viewContext
+        var dataObject : NSManagedObject
+        if (!sorted){
+            dataObject = data![(location?.row)!]
+        } else if (location?.section == 0 && sorted){
+            dataObject = notcompleted[(location?.row)!]
+        } else if (location?.section == 1 && sorted){
+            dataObject = completed[(location?.row)!]
+        } else {
+            print("Shouldn't be here")
+            return
+        }
+        dataObject.setValue(!sender.checked, forKey: "completed")
+        
         do {
             try managedContext.save()
+            if (sorted && location?.section == 0){
+                collectionView.performBatchUpdates({
+                    collectionView.deleteItems(at: [location!])
+                    let index = dataObject.value(forKey: "index") as! Int
+                    let insertIndex = completed.index(where: { $0.value(forKey: "index") as! Int > index })
+                    completed.insert(dataObject, at: insertIndex ?? completed.count)
+                    notcompleted.remove(at: location!.row)
+                    collectionView.insertItems(at: [IndexPath.init(item: insertIndex ?? completed.count-1, section: 1)])
+                }, completion: nil)
+            } else if (sorted && location?.section == 1){
+                collectionView.performBatchUpdates({
+                    collectionView.deleteItems(at: [location!])
+                    let index = dataObject.value(forKey: "index") as! Int
+                    let insertIndex = notcompleted.index(where: { $0.value(forKey: "index") as! Int > index })
+                    notcompleted.insert(dataObject, at: insertIndex ?? notcompleted.count)
+                    completed.remove(at: location!.row)
+                    collectionView.insertItems(at: [IndexPath.init(item: insertIndex ?? notcompleted.count-1, section: 0)])
+                }, completion: nil)
+            } else if (sender.checked){
+                let index = dataObject.value(forKey: "index") as! Int
+                let insertIndex = notcompleted.index(where: { $0.value(forKey: "index") as! Int > index })
+                notcompleted.insert(dataObject, at: insertIndex ?? notcompleted.count)
+                completed.removeAll(where: {$0.value(forKey: "index") as! Int == location!.row})
+            } else if (!sender.checked){
+                let index = dataObject.value(forKey: "index") as! Int
+                let insertIndex = completed.index(where: { $0.value(forKey: "index") as! Int > index })
+                completed.insert(dataObject, at: insertIndex ?? completed.count)
+                notcompleted.removeAll(where: {$0.value(forKey: "index") as! Int == location!.row})
+            }
             sender.checked = !sender.checked
-            if(data![sender.tag].value(forKeyPath: "completed") as! Bool){
+            if(dataObject.value(forKeyPath: "completed") as! Bool){
                 sender.setImage(#imageLiteral(resourceName: "greenCheck"), for: .normal)
             } else {
                 sender.setImage(#imageLiteral(resourceName: "greyCheck"), for: .normal)
@@ -195,6 +254,69 @@ class SingleEventCollectionViewController: UICollectionViewController {
         
         
         
+    }
+    
+    func collectionView(_ collectionView: UICollectionView,
+                                 layout collectionViewLayout: UICollectionViewLayout,
+                                 referenceSizeForHeaderInSection section: Int) -> CGSize{
+        if (sorted){
+            return CGSize(width:self.collectionView.frame.size.width, height:50)
+        } else {
+            return CGSize(width:0, height:0)
+        }
+        
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let sectionHeader = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "HeaderSection", for: indexPath) as! EventSectionHeaderView
+        if (indexPath.section == 0){
+            sectionHeader.sectionTitle.text = "Not Completed"
+        } else {
+            sectionHeader.sectionTitle.text = "Completed"
+        }
+        
+        return sectionHeader
+    }
+    
+
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if  segue.identifier == "DetailSelect"{
+            self.modalPresentationStyle = .currentContext
+            let selectedView = collectionView.indexPath(for: sender as! EventCollectionViewCell)
+            
+            let dest = segue.destination as! DetailsViewController
+            if (sorted && selectedView?.section == 0){
+                dest.eventObject = notcompleted[selectedView!.row]
+            } else if (sorted && selectedView?.section == 1) {
+                dest.eventObject = completed[selectedView!.row]
+            } else {
+                dest.eventObject = data![selectedView!.row]
+            }
+            dest.fullData = singleEventTableArray[dest.eventObject.value(forKey: "index") as! Int]
+            dest.eventView = eventView
+        }
+    }
+    
+    @IBAction func sort(){
+        if (!sorted){
+            collectionView.performBatchUpdates({
+                sorted = !sorted
+                collectionView.deleteItems(at: completed.map {IndexPath(item: $0.value(forKeyPath: "index") as! Int, section: 0)})
+                collectionView.insertSections(IndexSet.init(integer: 1))
+                collectionView.insertItems(at: (0..<completed.count).map {IndexPath(item: $0, section: 1)})
+            }, completion: nil)
+        } else {
+            collectionView.performBatchUpdates({
+                sorted = !sorted
+                collectionView.insertItems(at: completed.map {IndexPath(item: $0.value(forKeyPath: "index") as! Int, section: 0)})
+                collectionView.deleteSections(IndexSet.init(integer: 1))
+                collectionView.deleteItems(at: (0..<completed.count).map {IndexPath(item: $0, section: 1)})
+            }, completion: nil)
+        }
+        
+        
+        //collectionView.reloadData()
     }
     // MARK: UICollectionViewDelegate
     

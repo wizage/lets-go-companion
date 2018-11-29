@@ -16,6 +16,8 @@
 		<string>Pewter City</string>
 		<key>Reward</key>
 		<string>Big Pearl</string>
+        <key>Image</key>
+        <string>079MS</string>
 	</dict>
     <dict>
 		<key>DailyEvent</key>
@@ -24,6 +26,8 @@
 		<string>Pewter City Pokemon Center</string>
 		<key>Reward</key>
 		<string>Pewter Crunchies</string>
+        <key>Image</key>
+        <string>Bag_Pewter_Crunchies_Sprite</string>
 	</dict>
     <dict>
 		<key>DailyEvent</key>
@@ -32,6 +36,8 @@
 		<string>Vermilion Port</string>
 		<key>Reward</key>
 		<string>Bottle Cap</string>
+        <key>Image</key>
+        <string>Bag_Bottle_Cap_Sprite</string>
 	</dict>
     <dict>
 		<key>DailyEvent</key>
@@ -40,6 +46,8 @@
 		<string>Fushcia City</string>
 		<key>Reward</key>
 		<string>Nugget</string>
+        <key>Image</key>
+        <string>050MS</string>
 	</dict>
     <dict>
 		<key>DailyEvent</key>
@@ -48,6 +56,8 @@
 		<string>Gyms</string>
 		<key>Reward</key>
 		<string>Money and Exp</string>
+        <key>Image</key>
+        <string>Boulder_Badge</string>
 	</dict>
     <dict>
 		<key>DailyEvent</key>
@@ -56,6 +66,8 @@
 		<string>End of Victory Road</string>
 		<key>Reward</key>
 		<string>Money and Exp</string>
+        <key>Image</key>
+        <string>Elite_Four_Crown</string>
 	</dict>
     <dict>
 		<key>DailyEvent</key>
@@ -64,6 +76,8 @@
 		<string>Rocket Game Corner</string>
 		<key>Reward</key>
 		<string>Misc items</string>
+        <key>Image</key>
+        <string>Bag_Poke_Ball_Sprite</string>
 	</dict>
     <dict>
 		<key>DailyEvent</key>
@@ -72,6 +86,8 @@
 		<string>Cerulean Cave</string>
 		<key>Reward</key>
 		<string>Fossil</string>
+        <key>Image</key>
+        <string>Bag_Helix_Fossil_Sprite</string>
 	</dict>
     <dict>
 		<key>DailyEvent</key>
@@ -80,6 +96,8 @@
 		<string>Seafoam Islands</string>
 		<key>Reward</key>
 		<string>Heart Scales</string>
+        <key>Image</key>
+        <string>Bag_Heart_Scale_Sprite</string>
 	</dict>
 </array>
 </plist>
