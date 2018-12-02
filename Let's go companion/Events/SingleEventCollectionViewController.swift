@@ -17,7 +17,6 @@ class SingleEventCollectionViewController: UICollectionViewController, UICollect
     var sorted = false
     var completed : Array<NSManagedObject> = []
     var notcompleted : Array<NSManagedObject> = []
-    var layout : UICollectionViewFlowLayout = UICollectionViewFlowLayout()
     override func viewDidLoad() {
         super.viewDidLoad()
         appDelegate = UIApplication.shared.delegate as? AppDelegate
@@ -61,7 +60,8 @@ class SingleEventCollectionViewController: UICollectionViewController, UICollect
         let screenSize = UIScreen.main.bounds
         let screenWidth = screenSize.width
         let screenHeight = screenSize.height
-
+        
+        let layout : UICollectionViewFlowLayout = UICollectionViewFlowLayout()
         
         if (screenWidth > screenHeight){
             layout.sectionInset = UIEdgeInsets(top: 10, left: (screenHeight - 300)/3, bottom: 10, right: (screenHeight - 300)/3)

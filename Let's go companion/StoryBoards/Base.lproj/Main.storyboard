@@ -305,7 +305,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jv0-Dy-Y62" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1684" y="296"/>
+            <point key="canvasLocation" x="1671" y="372"/>
         </scene>
         <!--About-->
         <scene sceneID="fBF-Tf-aHy">
@@ -322,7 +322,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kI7-2u-1ro" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="734" y="296"/>
+            <point key="canvasLocation" x="642" y="372"/>
         </scene>
         <!--Pokedex-->
         <scene sceneID="j0b-BL-S2h">
@@ -339,13 +339,56 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="zT7-nX-WWL" customClass="EventCollectionViewCell" customModule="Let_s_go_companion" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="Wdi-fy-ee6" customClass="EventCollectionViewCell" customModule="Let_s_go_companion" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5JQ-z5-pXa">
+                                            <rect key="frame" x="18" y="121.5" width="114" height="20.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="Lw1-Ym-55s"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pZN-Lq-qlf">
+                                            <rect key="frame" x="29" y="28" width="92" height="92"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="92" id="1T6-49-rMX"/>
+                                                <constraint firstAttribute="height" constant="92" id="M42-jl-oXu"/>
+                                            </constraints>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8eV-dt-Z6L" customClass="CheckButton" customModule="Let_s_go_companion" customModuleProvider="target">
+                                            <rect key="frame" x="118" y="28" width="24" height="24"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="24" id="XZb-mr-WEF"/>
+                                                <constraint firstAttribute="width" constant="24" id="yfb-SI-Wfr"/>
+                                            </constraints>
+                                            <state key="normal" image="greyCheck"/>
+                                            <state key="highlighted" image="greenCheck"/>
+                                        </button>
+                                    </subviews>
                                 </view>
+                                <constraints>
+                                    <constraint firstItem="pZN-Lq-qlf" firstAttribute="top" secondItem="Wdi-fy-ee6" secondAttribute="topMargin" id="1OB-ho-nrZ"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="pZN-Lq-qlf" secondAttribute="trailing" constant="21" id="7Na-uh-rGz"/>
+                                    <constraint firstItem="8eV-dt-Z6L" firstAttribute="top" secondItem="Wdi-fy-ee6" secondAttribute="topMargin" id="EET-6Y-6lY"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="5JQ-z5-pXa" secondAttribute="bottom" id="Htb-Ja-ood"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="5JQ-z5-pXa" secondAttribute="trailing" constant="10" id="M4U-UB-45q"/>
+                                    <constraint firstItem="8eV-dt-Z6L" firstAttribute="trailing" secondItem="Wdi-fy-ee6" secondAttribute="trailingMargin" id="Usk-BQ-eVe"/>
+                                    <constraint firstItem="pZN-Lq-qlf" firstAttribute="leading" secondItem="Wdi-fy-ee6" secondAttribute="leadingMargin" constant="21" id="eCY-18-D4v"/>
+                                    <constraint firstItem="5JQ-z5-pXa" firstAttribute="leading" secondItem="Wdi-fy-ee6" secondAttribute="leadingMargin" constant="10" id="vMm-LO-NnQ"/>
+                                </constraints>
+                                <size key="customSize" width="150" height="150"/>
+                                <connections>
+                                    <outlet property="imageView" destination="pZN-Lq-qlf" id="VDU-Sq-9fi"/>
+                                    <outlet property="selectedMark" destination="8eV-dt-Z6L" id="VQJ-m6-DYS"/>
+                                    <outlet property="titleLabel" destination="5JQ-z5-pXa" id="QT6-Fk-vIc"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
@@ -357,21 +400,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1v-u0-AtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="734" y="1009"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="wtd-WV-qCx">
-            <objects>
-                <viewController id="XU9-iY-Sjo" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xXS-Ce-l8Z">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="0nN-IL-Htw"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W0P-p2-thK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
+            <point key="canvasLocation" x="641" y="1113"/>
         </scene>
     </scenes>
     <resources>
