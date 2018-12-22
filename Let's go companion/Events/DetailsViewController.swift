@@ -11,7 +11,7 @@ import CoreData
 
 class DetailsViewController: UIViewController {
     
-    var fullData : Dictionary<String, String>!
+    var fullData : Dictionary<String, Any>!
     var eventView : String!
     var eventObject : NSManagedObject!
     var location : Int?
@@ -26,28 +26,28 @@ class DetailsViewController: UIViewController {
         
         switch eventView {
         case "TMCollection":
-            let TMCombo = fullData["TMName"]! + "\n" + fullData["TMTitle"]!
+            let TMCombo = String(describing:fullData["TMName"]!) + "\n" + String(describing:fullData["TMTitle"]!)
             titleView.text = TMCombo
-            let imageName = "Bag_TM_" + fullData["TMType"]! + "_Sprite"
+            let imageName = "Bag_TM_" + String(describing:fullData["TMType"]!) + "_Sprite"
             imageView.image = UIImage(imageLiteralResourceName: imageName)
-            longTextView.text = fullData["TMLocation"]
+            longTextView.text = String(describing:fullData["TMLocation"]!)
         case "Gift":
-            titleView.text = fullData["PokemonName"]
-            imageView.image = UIImage(imageLiteralResourceName: fullData["ID"]! + "MS")
-            longTextView.text = "Location: " + fullData["Location"]! + "\nRequirement: " + fullData["Requirement"]!
+            titleView.text = String(describing:fullData["PokemonName"]!)
+            imageView.image = UIImage(imageLiteralResourceName: String(describing:fullData["ID"]!) + "MS")
+            longTextView.text = "Location: " + String(describing:fullData["Location"]!) + "\nRequirement: " + String(describing:fullData["Requirement"]!)
         case "Trading":
-            titleView.text = fullData["PokemonName"]
-            let imageName = fullData["ID"]! + "AMS"
+            titleView.text = String(describing:fullData["PokemonName"]!)
+            let imageName = String(describing:fullData["ID"]!) + "AMS"
             imageView.image = UIImage(imageLiteralResourceName: imageName)
-            longTextView.text = "Location: " + fullData["Location"]! + "\nRequirement: " + fullData["Requirement"]!
+            longTextView.text = "Location: " + String(describing:fullData["Location"]!) + "\nRequirement: " + String(describing:fullData["Requirement"]!)
         case "Daily":
-            titleView.text = fullData["DailyEvent"]
-            imageView.image = UIImage(imageLiteralResourceName: fullData["Image"]!)
-            longTextView.text = "Location: " + fullData["Location"]! + "\nReward: " + fullData["Reward"]!
+            titleView.text = String(describing:fullData["DailyEvent"]!)
+            imageView.image = UIImage(imageLiteralResourceName: String(describing:fullData["Image"]!))
+            longTextView.text = "Location: " + String(describing:fullData["Location"]!) + "\nReward: " + String(describing:fullData["Reward"]!)
         case "MasterTrainer":
-            var pokemonLeveler = fullData["Pokemon"]
-            let indexOfSpace = pokemonLeveler?.firstIndex(of: " ")
-            pokemonLeveler?.replaceSubrange(indexOfSpace!..<indexOfSpace!, with: "\n")
+            var pokemonLeveler = String(describing:fullData["Pokemon"]!)
+            let indexOfSpace = pokemonLeveler.firstIndex(of: " ")
+            pokemonLeveler.replaceSubrange(indexOfSpace!..<indexOfSpace!, with: "\n")
             titleView.text = pokemonLeveler
             if (location == 151){
                 imageView.image = #imageLiteral(resourceName: "808MS")
@@ -57,9 +57,9 @@ class DetailsViewController: UIViewController {
                 let imageName = String(format: "%03dMS", location!+1)
                 imageView.image = UIImage(imageLiteralResourceName: imageName)
             }
-            longTextView.text = "Location: " + fullData["Location"]!
+            longTextView.text = "Location: " + String(describing:fullData["Location"]!)
         case "Outfit":
-            titleView.text = fullData["Outfit"]
+            titleView.text = String(describing:fullData["Outfit"]!)
         default:
             titleView.text = "Error"
         }

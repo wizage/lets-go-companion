@@ -18,6 +18,7 @@
         <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
     </entity>
     <entity name="PokemonObject" representedClassName="PokemonObject" syncable="YES" codeGenerationType="class">
+        <attribute name="alolan" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="captured" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="shiny" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
@@ -32,11 +33,11 @@
     </entity>
     <elements>
         <element name="DailyObject" positionX="-1902.015625" positionY="-2094.48046875" width="128" height="88"/>
-        <element name="TMCollectionObject" positionX="-1881" positionY="-2061" width="128" height="75"/>
         <element name="GiftObject" positionX="-1863" positionY="-2034" width="128" height="75"/>
-        <element name="TradingObject" positionX="-1845" positionY="-2025" width="128" height="75"/>
         <element name="MasterTrainerObject" positionX="-1827" positionY="-2016" width="128" height="75"/>
         <element name="OutfitObject" positionX="-1809" positionY="-1998" width="128" height="75"/>
-        <element name="PokemonObject" positionX="-1854" positionY="-2043" width="128" height="90"/>
+        <element name="PokemonObject" positionX="-1854" positionY="-2043" width="128" height="105"/>
+        <element name="TMCollectionObject" positionX="-1881" positionY="-2061" width="128" height="75"/>
+        <element name="TradingObject" positionX="-1845" positionY="-2025" width="128" height="75"/>
     </elements>
 </model>

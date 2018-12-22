@@ -8,606 +8,726 @@
    Copyright (c) 2018 wizage. All rights reserved.
 -->
 <plist version="1.0">
-<array>
-	<dict>
-		<key>TMType</key>
-		<string>Normal</string>
-		<key>TMName</key>
-		<string>TM01</string>
-		<key>TMTitle</key>
-		<string>Headbutt</string>
-		<key>TMLocation</key>
-		<string>Defeat Brock in the Pewter City Gym</string>
-	</dict>
-	<dict>
-		<key>TMType</key>
-		<string>Dark</string>
-		<key>TMName</key>
-		<string>TM02</string>
-		<key>TMTitle</key>
-		<string>Taunt</string>
-		<key>TMLocation</key>
-		<string>Speak to scientist in Cinnabar Lab</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Normal</string>
-		<key>TMName</key>
-		<string>TM03</string>
-		<key>TMTitle</key>
-		<string>Helping Hand</string>
-		<key>TMLocation</key>
-		<string>Speak to store clerk on Floor 3 of Celadon Department Store</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Psychic</string>
-		<key>TMName</key>
-		<string>TM04</string>
-		<key>TMTitle</key>
-		<string>Teleport</string>
-		<key>TMLocation</key>
-		<string>Pokemon Tower (Lavender Town)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Psychic</string>
-		<key>TMName</key>
-		<string>TM05</string>
-		<key>TMTitle</key>
-		<string>Rest</string>
-		<key>TMLocation</key>
-		<string>Celadon City Game Corner – B2</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Psychic</string>
-		<key>TMName</key>
-		<string>TM06</string>
-		<key>TMTitle</key>
-		<string>Light Screen</string>
-		<key>TMLocation</key>
-		<string>Give the little girl on the roof of Celadon Department Store a Fresh Water from vending machine</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Normal</string>
-		<key>TMName</key>
-		<string>TM07</string>
-		<key>TMTitle</key>
-		<string>Protect</string>
-		<key>TMLocation</key>
-		<string>Give the little girl on the roof of Celadon Department Store a Lemonade from the vending machine</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Normal</string>
-		<key>TMName</key>
-		<string>TM08</string>
-		<key>TMTitle</key>
-		<string>Substitute</string>
-		<key>TMLocation</key>
-		<string>Talk to the little girl in North Saffron City with Clefairy in your Party</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Psychic</string>
-		<key>TMName</key>
-		<string>TM09</string>
-		<key>TMTitle</key>
-		<string>Reflect</string>
-		<key>TMLocation</key>
-		<string>Give the little girl on the roof of Celadon Department Store a Soda Pop from vending machine</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Ground</string>
-		<key>TMName</key>
-		<string>TM10</string>
-		<key>TMTitle</key>
-		<string>Dig</string>
-		<key>TMLocation</key>
-		<string>Defeat the Team Rocket Grunt after defeating Misty</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Fire</string>
-		<key>TMName</key>
-		<string>TM11</string>
-		<key>TMTitle</key>
-		<string>Will-O-Wisp</string>
-		<key>TMLocation</key>
-		<string>Talk to man in pink shirt in Viridian City (behind cut bush)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Normal</string>
-		<key>TMName</key>
-		<string>TM12</string>
-		<key>TMTitle</key>
-		<string>Facade</string>
-		<key>TMLocation</key>
-		<string>Defeat the Coach Trainer on Route 7</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Fighting</string>
-		<key>TMName</key>
-		<string>TM13</string>
-		<key>TMTitle</key>
-		<string>Brick Break</string>
-		<key>TMLocation</key>
-		<string>Defeat Coach Trainer outside of Rock Tunnel on Route 10</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Flying</string>
-		<key>TMName</key>
-		<string>TM14</string>
-		<key>TMTitle</key>
-		<string>Fly</string>
-		<key>TMLocation</key>
-		<string>Speak to woman in house on Route 16 (behind cut bush)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Fighting</string>
-		<key>TMName</key>
-		<string>TM15</string>
-		<key>TMTitle</key>
-		<string>Seismic Toss</string>
-		<key>TMLocation</key>
-		<string>Defeat Coach Trainer on Route 24 – East of Bill’s house</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Electric</string>
-		<key>TMName</key>
-		<string>TM16</string>
-		<key>TMTitle</key>
-		<string>Thunder Wave</string>
-		<key>TMLocation</key>
-		<string>Route 24 behind cut bush</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Dragon</string>
-		<key>TMName</key>
-		<string>TM17</string>
-		<key>TMTitle</key>
-		<string>Dragon Tail</string>
-		<key>TMLocation</key>
-		<string>Celadon Department Store – 2F (20,000 Poke Dollars)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Bug</string>
-		<key>TMName</key>
-		<string>TM18</string>
-		<key>TMTitle</key>
-		<string>U-Turn</string>
-		<key>TMLocation</key>
-		<string>Celadon Department Store (20,000 Poke Dollars)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Steel</string>
-		<key>TMName</key>
-		<string>TM19</string>
-		<key>TMTitle</key>
-		<string>Iron Tail</string>
-		<key>TMLocation</key>
-		<string>Celadon Department Store – 2F (50,000 Poke Dollars)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Dark</string>
-		<key>TMName</key>
-		<string>TM20</string>
-		<key>TMTitle</key>
-		<string>Dark Pulse</string>
-		<key>TMLocation</key>
-		<string>Celadon City Game Corner – B3</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Dark</string>
-		<key>TMName</key>
-		<string>TM21</string>
-		<key>TMTitle</key>
-		<string>Foul Play</string>
-		<key>TMLocation</key>
-		<string>Pokemon Mansion – 3F (Cinnabar Island)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Rock</string>
-		<key>TMName</key>
-		<string>TM22</string>
-		<key>TMTitle</key>
-		<string>Rock Slide</string>
-		<key>TMLocation</key>
-		<string>Defeat Coach Trainer in Pokemon Mansion – 2F (Cinnabar Island)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Electric</string>
-		<key>TMName</key>
-		<string>TM23</string>
-		<key>TMTitle</key>
-		<string>Thunderpunch</string>
-		<key>TMLocation</key>
-		<string>Defeat Coach Trainer in Fighting Dojo (Saffron City)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Bug</string>
-		<key>TMName</key>
-		<string>TM24</string>
-		<key>TMTitle</key>
-		<string>X-Scissor</string>
-		<key>TMLocation</key>
-		<string>Route 12 (need Surf)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Water</string>
-		<key>TMName</key>
-		<string>TM25</string>
-		<key>TMTitle</key>
-		<string>Waterfall</string>
-		<key>TMLocation</key>
-		<string>Celadon Department Store (30,000 Poke Dollars)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Poison</string>
-		<key>TMName</key>
-		<string>TM26</string>
-		<key>TMTitle</key>
-		<string>Poison Jab</string>
-		<key>TMLocation</key>
-		<string>Talk to the old man with the pond in front of his house in Celadon City (need Surf)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Poison</string>
-		<key>TMName</key>
-		<string>TM27</string>
-		<key>TMTitle</key>
-		<string>Toxic</string>
-		<key>TMLocation</key>
-		<string>Defeat Koga in the Fuchsia City Gym</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Normal</string>
-		<key>TMName</key>
-		<string>TM28</string>
-		<key>TMTitle</key>
-		<string>Tri Attack</string>
-		<key>TMLocation</key>
-		<string>Celadon Department Store – 2F (30,000 Poke Dollars)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Water</string>
-		<key>TMName</key>
-		<string>TM29</string>
-		<key>TMTitle</key>
-		<string>Scald</string>
-		<key>TMLocation</key>
-		<string>Defeat Misty in the Cerulean City Gym</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Fighting</string>
-		<key>TMName</key>
-		<string>TM30</string>
-		<key>TMTitle</key>
-		<string>Bulk Up</string>
-		<key>TMLocation</key>
-		<string>Celadon Department Store (10,000 Poke Dollars)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Fire</string>
-		<key>TMName</key>
-		<string>TM31</string>
-		<key>TMTitle</key>
-		<string>Fire Punch</string>
-		<key>TMLocation</key>
-		<string>Defeat Coach Trainer on Route 15</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Fairy</string>
-		<key>TMName</key>
-		<string>TM32</string>
-		<key>TMTitle</key>
-		<string>Dazzling Gleam</string>
-		<key>TMLocation</key>
-		<string>Talk to forgetful old man in house on Route 12</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Psychic</string>
-		<key>TMName</key>
-		<string>TM33</string>
-		<key>TMTitle</key>
-		<string>Calm Mind</string>
-		<key>TMLocation</key>
-		<string>Defeat Sabrina in the Saffron City Gym</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Dragon</string>
-		<key>TMName</key>
-		<string>TM34</string>
-		<key>TMTitle</key>
-		<string>Dragon Pulse</string>
-		<key>TMLocation</key>
-		<string>Silph Co. 7F (Saffron City – need Card Key)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Ice</string>
-		<key>TMName</key>
-		<string>TM35</string>
-		<key>TMTitle</key>
-		<string>Ice Punch</string>
-		<key>TMLocation</key>
-		<string>Defeat Coach Trainer on Route 21</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Electric</string>
-		<key>TMName</key>
-		<string>TM36</string>
-		<key>TMTitle</key>
-		<string>Thunderbolt</string>
-		<key>TMLocation</key>
-		<string>Defeat Lt. Surge in the Vermillion City Gym</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Fire</string>
-		<key>TMName</key>
-		<string>TM37</string>
-		<key>TMTitle</key>
-		<string>Flamethrower</string>
-		<key>TMLocation</key>
-		<string>Silph Co. 10F (Saffron City)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Electric</string>
-		<key>TMName</key>
-		<string>TM38</string>
-		<key>TMTitle</key>
-		<string>Thunder</string>
-		<key>TMLocation</key>
-		<string>Power Plant</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Dragon</string>
-		<key>TMName</key>
-		<string>TM39</string>
-		<key>TMTitle</key>
-		<string>Outrage</string>
-		<key>TMLocation</key>
-		<string>Defeat Coach Trainer in Victory Road – 3F</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Psychic</string>
-		<key>TMName</key>
-		<string>TM40</string>
-		<key>TMTitle</key>
-		<string>Psychic</string>
-		<key>TMLocation</key>
-		<string>Talk to man in the house South of Silph Co. in Saffron City</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Ground</string>
-		<key>TMName</key>
-		<string>TM41</string>
-		<key>TMTitle</key>
-		<string>Earthquake</string>
-		<key>TMLocation</key>
-		<string>Defeat Giovanni in the Viridian City Gym</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Normal</string>
-		<key>TMName</key>
-		<string>TM42</string>
-		<key>TMTitle</key>
-		<string>Self-Destruct</string>
-		<key>TMLocation</key>
-		<string>Talk to female Silph Co. employee on 2F in Saffron City</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Ghost</string>
-		<key>TMName</key>
-		<string>TM43</string>
-		<key>TMTitle</key>
-		<string>Shadow Ball</string>
-		<key>TMLocation</key>
-		<string>Celadon City Department Store (30,000 Poke Dollars)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Fairy</string>
-		<key>TMName</key>
-		<string>TM44</string>
-		<key>TMTitle</key>
-		<string>Play Rough</string>
-		<key>TMLocation</key>
-		<string>On the roof of Celadon Condominiums (enter through the back)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Grass</string>
-		<key>TMName</key>
-		<string>TM45</string>
-		<key>TMTitle</key>
-		<string>Solar Beam</string>
-		<key>TMLocation</key>
-		<string>Victory Road – 2F</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Fire</string>
-		<key>TMName</key>
-		<string>TM46</string>
-		<key>TMTitle</key>
-		<string>Fire Blast</string>
-		<key>TMLocation</key>
-		<string>Defeat Blaine in the Cinnabar Island Gym</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Water</string>
-		<key>TMName</key>
-		<string>TM47</string>
-		<key>TMTitle</key>
-		<string>Surf</string>
-		<key>TMLocation</key>
-		<string>Route 15</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Normal</string>
-		<key>TMName</key>
-		<string>TM48</string>
-		<key>TMTitle</key>
-		<string>Hyper Beam</string>
-		<key>TMLocation</key>
-		<string>Celadon Department Store – 2F (100,000 Poke Dollars)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Fighting</string>
-		<key>TMName</key>
-		<string>TM49</string>
-		<key>TMTitle</key>
-		<string>Superpower</string>
-		<key>TMLocation</key>
-		<string>Victory Road – 2F</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Flying</string>
-		<key>TMName</key>
-		<string>TM50</string>
-		<key>TMTitle</key>
-		<string>Roost</string>
-		<key>TMLocation</key>
-		<string>Talk to little girl on Route 12 security house (top floor)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Ice</string>
-		<key>TMName</key>
-		<string>TM51</string>
-		<key>TMTitle</key>
-		<string>Blizzard</string>
-		<key>TMLocation</key>
-		<string>Victory Road – 3F</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Poison</string>
-		<key>TMName</key>
-		<string>TM52</string>
-		<key>TMTitle</key>
-		<string>Sludge Bomb</string>
-		<key>TMLocation</key>
-		<string>Pokemon Mansion (Cinnabar Island)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Grass</string>
-		<key>TMName</key>
-		<string>TM53</string>
-		<key>TMTitle</key>
-		<string>Mega Drain</string>
-		<key>TMLocation</key>
-		<string>Defeat Erika in the Celadon City Gym</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Steel</string>
-		<key>TMName</key>
-		<string>TM54</string>
-		<key>TMTitle</key>
-		<string>Flash Cannon</string>
-		<key>TMLocation</key>
-		<string>Silph Co. 5F (Saffron City – needs Card Key)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Ice</string>
-		<key>TMName</key>
-		<string>TM55</string>
-		<key>TMTitle</key>
-		<string>Ice Beam</string>
-		<key>TMLocation</key>
-		<string>Seafoam Islands – B3</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Rock</string>
-		<key>TMName</key>
-		<string>TM56</string>
-		<key>TMTitle</key>
-		<string>Stealth Rock</string>
-		<key>TMLocation</key>
-		<string>Victory Road – 1F (behind Strength Rock)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Normal</string>
-		<key>TMName</key>
-		<string>TM57</string>
-		<key>TMTitle</key>
-		<string>Pay Day</string>
-		<key>TMLocation</key>
-		<string>Defeat the Coach Trainer on Route 3 (outside of Mt. Moon)</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Ground</string>
-		<key>TMName</key>
-		<string>TM58</string>
-		<key>TMTitle</key>
-		<string>Drill Run</string>
-		<key>TMLocation</key>
-		<string>Coach Trainer on Route 17</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Psychic</string>
-		<key>TMName</key>
-		<string>TM59</string>
-		<key>TMTitle</key>
-		<string>Dream Eater</string>
-		<key>TMLocation</key>
-		<string>Defeat Coach Trainer on Route 12</string>
-	</dict>
-	<dict>
-        <key>TMType</key>
-		<string>Bug</string>
-		<key>TMName</key>
-		<string>TM60</string>
-		<key>TMTitle</key>
-		<string>Megahorn</string>
-		<key>TMLocation</key>
-		<string>Defeat Coach Trainer in front of Cerulean Cave after defeating Pokemon League</string>
-	</dict>
-</array>
+  <array>
+    <dict>
+      <key>TMType</key>
+      <string>Normal</string>
+      <key>TMName</key>
+      <string>TM01</string>
+      <key>TMTitle</key>
+      <string>Headbutt</string>
+      <key>TMLocation</key>
+      <string>Defeat Brock in the Pewter City Gym</string>
+      <key>TMIndex</key>
+      <integer>85</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Dark</string>
+      <key>TMName</key>
+      <string>TM02</string>
+      <key>TMTitle</key>
+      <string>Taunt</string>
+      <key>TMLocation</key>
+      <string>Speak to scientist in Cinnabar Lab</string>
+      <key>TMIndex</key>
+      <integer>174</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Normal</string>
+      <key>TMName</key>
+      <string>TM03</string>
+      <key>TMTitle</key>
+      <string>Helping Hand</string>
+      <key>TMLocation</key>
+      <string>Speak to store clerk on Floor 3 of Celadon Department Store</string>
+      <key>TMIndex</key>
+      <integer>177</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Psychic</string>
+      <key>TMName</key>
+      <string>TM04</string>
+      <key>TMTitle</key>
+      <string>Teleport</string>
+      <key>TMLocation</key>
+      <string>Pokemon Tower (Lavender Town)</string>
+      <key>TMIndex</key>
+      <integer>178</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Psychic</string>
+      <key>TMName</key>
+      <string>TM05</string>
+      <key>TMTitle</key>
+      <string>Rest</string>
+      <key>TMLocation</key>
+      <string>Celadon City Game Corner – B2</string>
+      <key>TMIndex</key>
+      <integer>188</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Psychic</string>
+      <key>TMName</key>
+      <string>TM06</string>
+      <key>TMTitle</key>
+      <string>Light Screen</string>
+      <key>TMLocation</key>
+      <string>Give the little girl on the roof of Celadon Department Store a Fresh Water from vending machine</string>
+      <key>TMIndex</key>
+      <integer>192</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Normal</string>
+      <key>TMName</key>
+      <string>TM07</string>
+      <key>TMTitle</key>
+      <string>Protect</string>
+      <key>TMLocation</key>
+      <string>Give the little girl on the roof of Celadon Department Store a Lemonade from the vending machine</string>
+      <key>TMIndex</key>
+      <integer>199</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Normal</string>
+      <key>TMName</key>
+      <string>TM08</string>
+      <key>TMTitle</key>
+      <string>Substitute</string>
+      <key>TMLocation</key>
+      <string>Talk to the little girl in North Saffron City with Clefairy in your Party</string>
+      <key>TMIndex</key>
+      <integer>201</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Psychic</string>
+      <key>TMName</key>
+      <string>TM09</string>
+      <key>TMTitle</key>
+      <string>Reflect</string>
+      <key>TMLocation</key>
+      <string>Give the little girl on the roof of Celadon Department Store a Soda Pop from vending machine</string>
+      <key>TMIndex</key>
+      <integer>207</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Ground</string>
+      <key>TMName</key>
+      <string>TM10</string>
+      <key>TMTitle</key>
+      <string>Dig</string>
+      <key>TMLocation</key>
+      <string>Defeat the Team Rocket Grunt after defeating Misty</string>
+      <key>TMIndex</key>
+      <integer>50</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Fire</string>
+      <key>TMName</key>
+      <string>TM11</string>
+      <key>TMTitle</key>
+      <string>Will-O-Wisp</string>
+      <key>TMLocation</key>
+      <string>Talk to man in pink shirt in Viridian City (behind cut bush)</string>
+      <key>TMIndex</key>
+      <integer>150</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Normal</string>
+      <key>TMName</key>
+      <string>TM12</string>
+      <key>TMTitle</key>
+      <string>Facade</string>
+      <key>TMLocation</key>
+      <string>Defeat the Coach Trainer on Route 7</string>
+      <key>TMIndex</key>
+      <integer>65</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Fighting</string>
+      <key>TMName</key>
+      <string>TM13</string>
+      <key>TMTitle</key>
+      <string>Brick Break</string>
+      <key>TMLocation</key>
+      <string>Defeat Coach Trainer outside of Rock Tunnel on Route 10</string>
+      <key>TMIndex</key>
+      <integer>69</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Flying</string>
+      <key>TMName</key>
+      <string>TM14</string>
+      <key>TMTitle</key>
+      <string>Fly</string>
+      <key>TMLocation</key>
+      <string>Speak to woman in house on Route 16 (behind cut bush)</string>
+      <key>TMIndex</key>
+      <integer>87</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Fighting</string>
+      <key>TMName</key>
+      <string>TM15</string>
+      <key>TMTitle</key>
+      <string>Seismic Toss</string>
+      <key>TMLocation</key>
+      <string>Defeat Coach Trainer on Route 24 – East of Bill’s house</string>
+      <key>TMIndex</key>
+      <integer>95</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Electric</string>
+      <key>TMName</key>
+      <string>TM16</string>
+      <key>TMTitle</key>
+      <string>Thunder Wave</string>
+      <key>TMLocation</key>
+      <string>Route 24 behind cut bush</string>
+      <key>TMIndex</key>
+      <integer>179</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Dragon</string>
+      <key>TMName</key>
+      <string>TM17</string>
+      <key>TMTitle</key>
+      <string>Dragon Tail</string>
+      <key>TMLocation</key>
+      <string>Celadon Department Store – 2F (20,000 Poke Dollars)</string>
+      <key>TMIndex</key>
+      <integer>108</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Bug</string>
+      <key>TMName</key>
+      <string>TM18</string>
+      <key>TMTitle</key>
+      <string>U-Turn</string>
+      <key>TMLocation</key>
+      <string>Celadon Department Store (20,000 Poke Dollars)</string>
+      <key>TMIndex</key>
+      <integer>111</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Steel</string>
+      <key>TMName</key>
+      <string>TM19</string>
+      <key>TMTitle</key>
+      <string>Iron Tail</string>
+      <key>TMLocation</key>
+      <string>Celadon Department Store – 2F (50,000 Poke Dollars)</string>
+      <key>TMIndex</key>
+      <integer>48</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Dark</string>
+      <key>TMName</key>
+      <string>TM20</string>
+      <key>TMTitle</key>
+      <string>Dark Pulse</string>
+      <key>TMLocation</key>
+      <string>Celadon City Game Corner – B3</string>
+      <key>TMIndex</key>
+      <integer>1</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Dark</string>
+      <key>TMName</key>
+      <string>TM21</string>
+      <key>TMTitle</key>
+      <string>Foul Play</string>
+      <key>TMLocation</key>
+      <string>Pokemon Mansion – 3F (Cinnabar Island)</string>
+      <key>TMIndex</key>
+      <integer>53</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Rock</string>
+      <key>TMName</key>
+      <string>TM22</string>
+      <key>TMTitle</key>
+      <string>Rock Slide</string>
+      <key>TMLocation</key>
+      <string>Defeat Coach Trainer in Pokemon Mansion – 2F (Cinnabar Island)</string>
+      <key>TMIndex</key>
+      <integer>57</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Electric</string>
+      <key>TMName</key>
+      <string>TM23</string>
+      <key>TMTitle</key>
+      <string>Thunder Punch</string>
+      <key>TMLocation</key>
+      <string>Defeat Coach Trainer in Fighting Dojo (Saffron City)</string>
+      <key>TMIndex</key>
+      <integer>64</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Bug</string>
+      <key>TMName</key>
+      <string>TM24</string>
+      <key>TMTitle</key>
+      <string>X-Scissor</string>
+      <key>TMLocation</key>
+      <string>Route 12 (need Surf)</string>
+      <key>TMIndex</key>
+      <integer>78</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Water</string>
+      <key>TMName</key>
+      <string>TM25</string>
+      <key>TMTitle</key>
+      <string>Waterfall</string>
+      <key>TMLocation</key>
+      <string>Celadon Department Store (30,000 Poke Dollars)</string>
+      <key>TMIndex</key>
+      <integer>90</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Poison</string>
+      <key>TMName</key>
+      <string>TM26</string>
+      <key>TMTitle</key>
+      <string>Poison Jab</string>
+      <key>TMLocation</key>
+      <string>Talk to the old man with the pond in front of his house in Celadon City (need Surf)</string>
+      <key>TMIndex</key>
+      <integer>102</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Poison</string>
+      <key>TMName</key>
+      <string>TM27</string>
+      <key>TMTitle</key>
+      <string>Toxic</string>
+      <key>TMLocation</key>
+      <string>Defeat Koga in the Fuchsia City Gym</string>
+      <key>TMIndex</key>
+      <integer>181</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Normal</string>
+      <key>TMName</key>
+      <string>TM28</string>
+      <key>TMTitle</key>
+      <string>Tri Attack</string>
+      <key>TMLocation</key>
+      <string>Celadon Department Store – 2F (30,000 Poke Dollars)</string>
+      <key>TMIndex</key>
+      <integer>21</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Water</string>
+      <key>TMName</key>
+      <string>TM29</string>
+      <key>TMTitle</key>
+      <string>Scald</string>
+      <key>TMLocation</key>
+      <string>Defeat Misty in the Cerulean City Gym</string>
+      <key>TMIndex</key>
+      <integer>24</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Fighting</string>
+      <key>TMName</key>
+      <string>TM30</string>
+      <key>TMTitle</key>
+      <string>Bulk Up</string>
+      <key>TMLocation</key>
+      <string>Celadon Department Store (10,000 Poke Dollars)</string>
+      <key>TMIndex</key>
+      <integer>193</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Fire</string>
+      <key>TMName</key>
+      <string>TM31</string>
+      <key>TMTitle</key>
+      <string>Fire Punch</string>
+      <key>TMLocation</key>
+      <string>Defeat Coach Trainer on Route 15</string>
+      <key>TMIndex</key>
+      <integer>131</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Fairy</string>
+      <key>TMName</key>
+      <string>TM32</string>
+      <key>TMTitle</key>
+      <string>Dazzling Gleam</string>
+      <key>TMLocation</key>
+      <string>Talk to forgetful old man in house on Route 12</string>
+      <key>TMIndex</key>
+      <integer>36</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Psychic</string>
+      <key>TMName</key>
+      <string>TM33</string>
+      <key>TMTitle</key>
+      <string>Calm Mind</string>
+      <key>TMLocation</key>
+      <string>Defeat Sabrina in the Saffron City Gym</string>
+      <key>TMIndex</key>
+      <integer>202</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Dragon</string>
+      <key>TMName</key>
+      <string>TM34</string>
+      <key>TMTitle</key>
+      <string>Dragon Pulse</string>
+      <key>TMLocation</key>
+      <string>Silph Co. 7F (Saffron City – need Card Key)</string>
+      <key>TMIndex</key>
+      <integer>46</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Ice</string>
+      <key>TMName</key>
+      <string>TM35</string>
+      <key>TMTitle</key>
+      <string>Ice Punch</string>
+      <key>TMLocation</key>
+      <string>Defeat Coach Trainer on Route 21</string>
+      <key>TMIndex</key>
+      <integer>139</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Electric</string>
+      <key>TMName</key>
+      <string>TM36</string>
+      <key>TMTitle</key>
+      <string>Thunderbolt</string>
+      <key>TMLocation</key>
+      <string>Defeat Lt. Surge in the Vermillion City Gym</string>
+      <key>TMIndex</key>
+      <integer>0</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Fire</string>
+      <key>TMName</key>
+      <string>TM37</string>
+      <key>TMTitle</key>
+      <string>Flamethrower</string>
+      <key>TMLocation</key>
+      <string>Silph Co. 10F (Saffron City)</string>
+      <key>TMIndex</key>
+      <integer>5</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Electric</string>
+      <key>TMName</key>
+      <string>TM38</string>
+      <key>TMTitle</key>
+      <string>Thunder</string>
+      <key>TMLocation</key>
+      <string>Power Plant</string>
+      <key>TMIndex</key>
+      <integer>8</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Dragon</string>
+      <key>TMName</key>
+      <string>TM39</string>
+      <key>TMTitle</key>
+      <string>Outrage</string>
+      <key>TMLocation</key>
+      <string>Defeat Coach Trainer in Victory Road – 3F</string>
+      <key>TMIndex</key>
+      <integer>73</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Psychic</string>
+      <key>TMName</key>
+      <string>TM40</string>
+      <key>TMTitle</key>
+      <string>Psychic</string>
+      <key>TMLocation</key>
+      <string>Talk to man in the house South of Silph Co. in Saffron City</string>
+      <key>TMIndex</key>
+      <integer>12</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Ground</string>
+      <key>TMName</key>
+      <string>TM41</string>
+      <key>TMTitle</key>
+      <string>Earthquake</string>
+      <key>TMLocation</key>
+      <string>Defeat Giovanni in the Viridian City Gym</string>
+      <key>TMIndex</key>
+      <integer>79</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Normal</string>
+      <key>TMName</key>
+      <string>TM42</string>
+      <key>TMTitle</key>
+      <string>Self-Destruct</string>
+      <key>TMLocation</key>
+      <string>Talk to female Silph Co. employee on 2F in Saffron City</string>
+      <key>TMIndex</key>
+      <integer>81</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Ghost</string>
+      <key>TMName</key>
+      <string>TM43</string>
+      <key>TMTitle</key>
+      <string>Shadow Ball</string>
+      <key>TMLocation</key>
+      <string>Celadon City Department Store (30,000 Poke Dollars)</string>
+      <key>TMIndex</key>
+      <integer>13</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Fairy</string>
+      <key>TMName</key>
+      <string>TM44</string>
+      <key>TMTitle</key>
+      <string>Play Rough</string>
+      <key>TMLocation</key>
+      <string>On the roof of Celadon Condominiums (enter through the back)</string>
+      <key>TMIndex</key>
+      <integer>83</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Grass</string>
+      <key>TMName</key>
+      <string>TM45</string>
+      <key>TMTitle</key>
+      <string>Solar Beam</string>
+      <key>TMLocation</key>
+      <string>Victory Road – 2F</string>
+      <key>TMIndex</key>
+      <integer>17</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Fire</string>
+      <key>TMName</key>
+      <string>TM46</string>
+      <key>TMTitle</key>
+      <string>Fire Blast</string>
+      <key>TMLocation</key>
+      <string>Defeat Blaine in the Cinnabar Island Gym</string>
+      <key>TMIndex</key>
+      <integer>19</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Water</string>
+      <key>TMName</key>
+      <string>TM47</string>
+      <key>TMTitle</key>
+      <string>Surf</string>
+      <key>TMLocation</key>
+      <string>Route 15</string>
+      <key>TMIndex</key>
+      <integer>23</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Normal</string>
+      <key>TMName</key>
+      <string>TM48</string>
+      <key>TMTitle</key>
+      <string>Hyper Beam</string>
+      <key>TMLocation</key>
+      <string>Celadon Department Store – 2F (100,000 Poke Dollars)</string>
+      <key>TMIndex</key>
+      <integer>28</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Fighting</string>
+      <key>TMName</key>
+      <string>TM49</string>
+      <key>TMTitle</key>
+      <string>Superpower</string>
+      <key>TMLocation</key>
+      <string>Victory Road – 2F</string>
+      <key>TMIndex</key>
+      <integer>116</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Flying</string>
+      <key>TMName</key>
+      <string>TM50</string>
+      <key>TMTitle</key>
+      <string>Roost</string>
+      <key>TMLocation</key>
+      <string>Talk to little girl on Route 12 security house (top floor)</string>
+      <key>TMIndex</key>
+      <integer>189</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Ice</string>
+      <key>TMName</key>
+      <string>TM51</string>
+      <key>TMTitle</key>
+      <string>Blizzard</string>
+      <key>TMLocation</key>
+      <string>Victory Road – 3F</string>
+      <key>TMIndex</key>
+      <integer>32</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Poison</string>
+      <key>TMName</key>
+      <string>TM52</string>
+      <key>TMTitle</key>
+      <string>Sludge Bomb</string>
+      <key>TMLocation</key>
+      <string>Pokemon Mansion (Cinnabar Island)</string>
+      <key>TMIndex</key>
+      <integer>34</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Grass</string>
+      <key>TMName</key>
+      <string>TM53</string>
+      <key>TMTitle</key>
+      <string>Mega Drain</string>
+      <key>TMLocation</key>
+      <string>Defeat Erika in the Celadon City Gym</string>
+      <key>TMIndex</key>
+      <integer>41</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Steel</string>
+      <key>TMName</key>
+      <string>TM54</string>
+      <key>TMTitle</key>
+      <string>Flash Cannon</string>
+      <key>TMLocation</key>
+      <string>Silph Co. 5F (Saffron City – needs Card Key)</string>
+      <key>TMIndex</key>
+      <integer>44</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Ice</string>
+      <key>TMName</key>
+      <string>TM55</string>
+      <key>TMTitle</key>
+      <string>Ice Beam</string>
+      <key>TMLocation</key>
+      <string>Seafoam Islands – B3</string>
+      <key>TMIndex</key>
+      <integer>47</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Rock</string>
+      <key>TMName</key>
+      <string>TM56</string>
+      <key>TMTitle</key>
+      <string>Stealth Rock</string>
+      <key>TMLocation</key>
+      <string>Victory Road – 1F (behind Strength Rock)</string>
+      <key>TMIndex</key>
+      <integer>166</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Normal</string>
+      <key>TMName</key>
+      <string>TM57</string>
+      <key>TMTitle</key>
+      <string>Pay Day</string>
+      <key>TMLocation</key>
+      <string>Defeat the Coach Trainer on Route 3 (outside of Mt. Moon)</string>
+      <key>TMIndex</key>
+      <integer>114</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Ground</string>
+      <key>TMName</key>
+      <string>TM58</string>
+      <key>TMTitle</key>
+      <string>Drill Run</string>
+      <key>TMLocation</key>
+      <string>Coach Trainer on Route 17</string>
+      <key>TMIndex</key>
+      <integer>110</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Psychic</string>
+      <key>TMName</key>
+      <string>TM59</string>
+      <key>TMTitle</key>
+      <string>Dream Eater</string>
+      <key>TMLocation</key>
+      <string>Defeat Coach Trainer on Route 12</string>
+      <key>TMIndex</key>
+      <integer>42</integer>
+    </dict>
+    <dict>
+      <key>TMType</key>
+      <string>Bug</string>
+      <key>TMName</key>
+      <string>TM60</string>
+      <key>TMTitle</key>
+      <string>Megahorn</string>
+      <key>TMLocation</key>
+      <string>Defeat Coach Trainer in front of Cerulean Cave after defeating Pokemon League</string>
+      <key>TMIndex</key>
+      <integer>138</integer>
+    </dict>
+  </array>
 </plist>

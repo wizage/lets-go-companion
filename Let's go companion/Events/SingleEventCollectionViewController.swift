@@ -13,7 +13,7 @@ class SingleEventCollectionViewController: UICollectionViewController, UICollect
     var eventView : String!
     var appDelegate : AppDelegate!
     var data : Array<NSManagedObject>!
-    var singleEventTableArray : Array<Dictionary<String, String>>!
+    var singleEventTableArray : Array<Dictionary<String, Any>>!
     var sorted = false
     var completed : Array<NSManagedObject> = []
     var notcompleted : Array<NSManagedObject> = []
@@ -27,8 +27,6 @@ class SingleEventCollectionViewController: UICollectionViewController, UICollect
         let sort = NSSortDescriptor(key: "index", ascending: true)
         fetchRequest.sortDescriptors = [sort]
         
-        
-        
         do {
             data = try managedContext.fetch(fetchRequest)
         } catch let error as NSError {
@@ -36,7 +34,7 @@ class SingleEventCollectionViewController: UICollectionViewController, UICollect
         }
         let singleEventTableURL = Bundle.main.url(forResource: eventView + "View", withExtension: "plist")
         let singleEventTableData = try! Data(contentsOf: singleEventTableURL!)
-        singleEventTableArray = try! PropertyListSerialization.propertyList(from: singleEventTableData, options: [], format: nil) as! Array<Dictionary<String, String>>
+        singleEventTableArray = try! PropertyListSerialization.propertyList(from: singleEventTableData, options: [], format: nil) as! Array<Dictionary<String, Any>>
         
         if (data.count == 0){
             let entity = NSEntityDescription.entity(forEntityName: eventView + "Object", in: managedContext)
@@ -140,25 +138,25 @@ class SingleEventCollectionViewController: UICollectionViewController, UICollect
         }
         switch eventView {
         case "TMCollection":
-            let TMCombo = singleEventTableArray[indexOfObject]["TMName"]! + "\n" + singleEventTableArray[indexOfObject]["TMTitle"]!
+            let TMCombo = String(describing:singleEventTableArray[indexOfObject]["TMName"]!) + "\n" + String(describing:singleEventTableArray[indexOfObject]["TMTitle"]!)
             cell.titleLabel.text = TMCombo
-            let imageName = "Bag_TM_" + singleEventTableArray[indexOfObject]["TMType"]! + "_Sprite"
+            let imageName = "Bag_TM_" + String(describing:singleEventTableArray[indexOfObject]["TMType"]!) + "_Sprite"
             cell.imageView.image = UIImage(imageLiteralResourceName: imageName)
         case "Gift":
-            cell.titleLabel.text = singleEventTableArray[indexOfObject]["PokemonName"]
-            cell.imageView.image = UIImage(imageLiteralResourceName: singleEventTableArray[indexOfObject]["ID"]! + "MS")
+            cell.titleLabel.text = String(describing:singleEventTableArray[indexOfObject]["PokemonName"]!)
+            cell.imageView.image = UIImage(imageLiteralResourceName: String(describing:singleEventTableArray[indexOfObject]["ID"]!) + "MS")
         case "Trading":
-            cell.titleLabel.text = singleEventTableArray[indexOfObject]["PokemonName"]
-            let imageName = singleEventTableArray[indexOfObject]["ID"]! + "AMS"
+            cell.titleLabel.text = String(describing:singleEventTableArray[indexOfObject]["PokemonName"]!)
+            let imageName = String(describing:singleEventTableArray[indexOfObject]["ID"]!) + "AMS"
             cell.imageView.image = UIImage(imageLiteralResourceName: imageName)
             
         case "Daily":
-            cell.titleLabel.text = singleEventTableArray[indexOfObject]["DailyEvent"]
-            cell.imageView.image = UIImage(imageLiteralResourceName: singleEventTableArray[indexOfObject]["Image"]!)
+            cell.titleLabel.text = String(describing:singleEventTableArray[indexOfObject]["DailyEvent"]!)
+            cell.imageView.image = UIImage(imageLiteralResourceName: String(describing:singleEventTableArray[indexOfObject]["Image"]!))
         case "MasterTrainer":
-            var pokemonLeveler = singleEventTableArray[indexOfObject]["Pokemon"]
-            let indexOfSpace = pokemonLeveler?.firstIndex(of: " ")
-            pokemonLeveler?.replaceSubrange(indexOfSpace!..<indexOfSpace!, with: "\n")
+            var pokemonLeveler = String(describing:singleEventTableArray[indexOfObject]["Pokemon"]!)
+            let indexOfSpace = pokemonLeveler.firstIndex(of: " ")
+            pokemonLeveler.replaceSubrange(indexOfSpace!..<indexOfSpace!, with: "\n")
             cell.titleLabel.text = pokemonLeveler
             if (indexOfObject == 151){
                 cell.imageView.image = #imageLiteral(resourceName: "808MS")
@@ -169,7 +167,7 @@ class SingleEventCollectionViewController: UICollectionViewController, UICollect
                 cell.imageView.image = UIImage(imageLiteralResourceName: imageName)
             }
         case "Outfit":
-            cell.titleLabel.text = singleEventTableArray[indexOfObject]["Outfit"]
+            cell.titleLabel.text = String(describing:singleEventTableArray[indexOfObject]["Outfit"]!)
         default:
             cell.titleLabel.text = "Error"
         }
@@ -295,6 +293,7 @@ class SingleEventCollectionViewController: UICollectionViewController, UICollect
             }
             dest.fullData = singleEventTableArray[dest.eventObject.value(forKey: "index") as! Int]
             dest.eventView = eventView
+            dest.location = dest.eventObject.value(forKey: "index") as! Int
         }
     }
     

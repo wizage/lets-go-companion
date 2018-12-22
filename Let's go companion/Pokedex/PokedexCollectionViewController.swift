@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "cell"
 
-class PokedexCollectionViewController: UICollectionViewController {
+class PokedexCollectionViewController: UICollectionViewController, UISearchBarDelegate, UISearchControllerDelegate, UISearchResultsUpdating {
     
     var pokedexArray : Array<Dictionary<String, Any>>!
 
@@ -34,6 +34,19 @@ class PokedexCollectionViewController: UICollectionViewController {
             layout.sectionInset = UIEdgeInsets(top: 10, left: (screenWidth - 300)/3, bottom: 10, right: (screenWidth - 300)/3)
         }
         
+        let searchController = UISearchController(searchResultsController: self)
+        searchController.searchResultsUpdater = self
+        searchController.searchBar.autocorrectionType = .no
+        
+        navigationItem.searchController = searchController
+        
+        // Make the search bar always visible.
+        navigationItem.hidesSearchBarWhenScrolling = false
+        
+        searchController.delegate = self
+        searchController.dimsBackgroundDuringPresentation = false // The default is true.
+        searchController.searchBar.delegate = self // Monitor when the search button is tapped.
+        
         //layout.sectionInset = UIEdgeInsets(top: 10, left: (screenWidth - 300)/3, bottom: 10, right: (screenWidth - 300)/3)
         layout.minimumInteritemSpacing = 0
         layout.minimumLineSpacing = 15
@@ -43,6 +56,16 @@ class PokedexCollectionViewController: UICollectionViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Do any additional setup after loading the view.
+    }
+
+    
+    func updateSearchResults(for searchController: UISearchController) {
+        // Update the filtered array based on the search text.
+        let searchResults = pokedexArray
+        
+        // Apply the filtered results to the search results table.
+        pokedexArray = searchResults
+        self.collectionView.reloadData()
     }
 
     /*
@@ -71,8 +94,10 @@ class PokedexCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! EventCollectionViewCell
-    
+        cell.selectedMark.isHidden = true
         cell.titleLabel.text = pokedexArray[indexPath.row]["PokemonName"] as? String
+        let imageName =  String(format: "%03dMS", (pokedexArray[indexPath.row]["PokemonID"] as? Int)!)
+        cell.imageView.image = UIImage(imageLiteralResourceName: imageName)
         
         // Configure the cell
     
